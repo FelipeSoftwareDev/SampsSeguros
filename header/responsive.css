@@ -1,0 +1,82 @@
+@media  screen and (max-width: 450px){
+    p{
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.7;
+    }
+    
+    h2{
+        font-weight: bold;
+        font-size: 1.65rem;
+        line-height: 1.7;
+    }
+    
+    .header{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: .2rem;
+        font-size: .5rem;
+       
+    }
+    
+    .logo{
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+    
+    
+    .menuIcon{
+        justify-self: end;
+        margin-left: 6rem;
+        margin-right: 1rem;
+        padding: 0;
+        border: solid 0.5px transparent;
+        transition:box-shadow 0.3s;
+    
+    }
+    
+    .menuIcon:hover{
+        cursor: pointer;
+        box-shadow: 0 0 1px 1px #ffffff;
+    }
+    
+    .leadCapture{
+        margin: 1rem;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .leadText{
+        margin-right: .5rem;
+    }
+    
+    .leadCapture a{
+        padding: 1rem .5rem;
+        background-color: #2100FF;
+        text-decoration: none;
+        border-radius: 1rem;
+        font-size: 1.65rem;
+        font-weight: bold;
+    
+    }
+    
+    
+    .leadCapture p {
+        max-width: 27rem;
+    }
+
+
+    
+    .leadButton{
+        margin-top: .7rem;
+    }
+    
+    .merchantVideo {
+        margin: 12rem;
+        margin-top: 5rem;
+    }
+        
+}

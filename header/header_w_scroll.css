@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #050040;
+    color: #ffffff;
+}
+ 
+p {
+    font-weight: normal;
+    font-size: 2.3rem;
+    line-height: 2;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.9rem;
+    line-height: 2;
+}
+
+.leadCapture a {
+    padding: 3rem 2rem;
+    background-color: #2100FF;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-left: 0rem;
+    transition: 500ms ease;
+}
+
+.leadCapture a:hover{
+    background-color: #021bff;
+    font-size: 2.2rem;
+    cursor: pointer;
+    box-shadow: 0 0 6px 6px #baebff;
+}
+
+.leadCapture p {
+    max-width: 45rem;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: .2rem;
+    font-size: .5rem;
+    margin-bottom: 6rem;
+}
+
+.logo{
+    margin-top: 1rem;
+    margin-left: 25rem;
+}
+
+
+.menuIcon{
+    justify-self: start;
+    margin-left:3rem;
+    margin-right: 20rem;
+    padding: 0;
+    border: solid 0.5px transparent;
+    transition:box-shadow 0.3s;
+
+}
+
+.menuIcon:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px #ffffff;
+}
+
+.leadCapture {
+    margin: 1rem;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.leadText{
+    margin-right: 14rem;
+}
+
+
+.leadButton {
+    margin-top: 9rem;
+}
+
+.merchantVideo {
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 3rem;
+    
+}
+
+#video a{
+    color: #00BFFF;
+    font-size:  2.3rem;
+    line-height: 2;
+}
+
+.subtitle{
+    
+    margin-left: 30rem;
+}
+
+.sub2{
+    margin-left: 4rem;
+}
