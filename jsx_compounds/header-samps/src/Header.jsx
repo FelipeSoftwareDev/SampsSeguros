@@ -1,7 +1,7 @@
 import style from './styles/HeaderStyles.css'
 import menuIcon from './assets/menu_icon_samps.svg'
 import logoImg from './assets/samps.svg'
-import './styles/Globals.css'
+
 
 
 export default function Header(){{

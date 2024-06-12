@@ -1,0 +1,125 @@
+
+.header {
+    background-color: #3a28cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    margin-right: 1rem;
+}
+
+/*
+.logo {
+    margin-right: 15rem;
+}
+    */
+.menu{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+#heroSection{
+    background-color: #3a28cc;
+    color: #fff;
+    padding: 1rem;
+    padding-top: 6rem;
+    border-radius: 2.6rem;
+}
+
+/*
+#heroSection {
+    background-color: #3a28cc;
+    color: #fff;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    border-radius: 3rem;
+}
+     */
+
+h1{
+    font-weight: 300 !important;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: .68rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border: solid 2px #0094FF;
+    width: 60%;
+    padding: .3rem;
+    border-radius: .5rem;
+    margin: 2rem 4rem;
+}
+
+.internBtn{
+    font-size: 1rem !important;
+    font-weight:600 !important;
+    padding: .5rem 1.2rem !important;
+    color: #000;
+    background-color: #5bb3f1;
+    border-radius: .3rem;
+    text-decoration: none;
+    margin-right: .5rem;
+} 
+
+.advantages{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+
+ul{
+    list-style: circle; 
+    }
+    
+    li{
+        margin-top: 2rem;
+        font-size: .85rem;
+        }
+
+.advantages h2{
+        margin-top: .5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-right:auto ;
+        margin-left: 11rem;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+.advantages p{
+    margin-left: 11rem;
+    margin-right: 0;
+}         
+
+#partners{
+    align-items: center;
+    justify-content: center;
+}
+
+#partners h3{
+    margin: 1rem 5.75rem;
+    font-size: .85rem;
+    font-weight: 600;
+}  
