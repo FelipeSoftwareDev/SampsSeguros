@@ -1,0 +1,32 @@
+
+.card{
+        
+    background-color: #5bb3f1;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    display: grid;
+    border: solid 1px #000;
+    box-shadow: 10 10 3px 3px #000;
+}
+
+.card h2{
+    font-weight: 400 !important;
+    font-size: 1.6rem;
+    margin: .5rem 1.5rem;
+    justify-self: center;
+}
+
+.card p{
+    font-weight: 300 !important;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card img{
+    margin: 1rem;
+    margin-left: 2.5rem;
+    border: .5px solid black;
+    border-radius: 1rem;
+}
