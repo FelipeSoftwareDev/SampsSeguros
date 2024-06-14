@@ -7,10 +7,12 @@
     color: #fff;
     position: fixed;
     width: 100%;
+    padding-top: 1.5rem;
 }
 
 .logo{
     margin-right: 1rem;
+    margin-left: 2.5rem;
 }
 
 /*
@@ -20,11 +22,11 @@
     */
 .menu{
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: 2.5rem;
 }
 
 #heroSection{
-    background-color: #3a28cc;
+    background-color: #3B28CC;
     color: #fff;
     padding: 1rem;
     padding-top: 6rem;
@@ -43,10 +45,10 @@
 
 h1{
     font-weight: 300 !important;
-    font-size: 1.8rem;
+    font-size: 1.76rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 p{
@@ -70,7 +72,7 @@ h1 a{
     width: 60%;
     padding: .3rem;
     border-radius: .5rem;
-    margin: 2rem 4rem;
+    margin: 1rem 2rem;
 }
 
 .internBtn{
@@ -86,12 +88,14 @@ h1 a{
 
 .advantages{
     padding: 1rem;
+    padding-right: .5rem;
     margin: 2rem;
+    margin-top: 1.8rem !important;
 }
 
 
 ul{
-    list-style: circle; 
+    list-style: none; 
     }
     
     li{
@@ -100,26 +104,90 @@ ul{
         }
 
 .advantages h2{
-        margin-top: .5rem;
+        margin-top: 1rem;
         font-size: 1rem;
         font-weight: 600;
         margin-right:auto ;
         margin-left: 11rem;
         font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    }
 
 .advantages p{
     margin-left: 11rem;
     margin-right: 0;
-}         
 
-#partners{
-    align-items: center;
-    justify-content: center;
+    }         
+
+
+.peopleVector{
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+    margin-bottom: -3.3rem;
+    }
+    
+    .ornament {
+        position: absolute;
+        right: 3.8rem;
+        bottom: -1.2rem;
+        width: 23rem;
+        }
+
+.whiteArrow{
+    position: relative;
+    left: 3.3rem;
+    top: 3rem;
 }
 
-#partners h3{
-    margin: 1rem 5.75rem;
-    font-size: .85rem;
-    font-weight: 600;
-}  
+.car {
+    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+    margin-top: -3rem;
+}
+
+    #partners{
+            align-items: center;
+            justify-content: center;
+    }
+        
+    #partners h3{
+            margin: 1rem 6.6rem;
+            font-size: .7rem;
+            font-weight: 600;
+            max-width: 100vw;
+    }
+
+    .slider {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        box-sizing: border-box;
+        place-content: center;
+        overflow: hidden;
+    }
+    
+    .slider-track {
+        display: inline-block;
+        white-space: nowrap;
+        animation: 10s infinite slide linear;
+        max-height: fit-content;
+        overflow: hidden;
+    }
+    
+    .slider-track img {
+        width: 100px; /* Defina o tamanho das imagens conforme necessário */
+        display: inline-block;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        overflow: hidden;
+    }
+    
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }    
