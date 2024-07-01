@@ -3,7 +3,7 @@ window.onload = function() {
     const track = document.getElementById('slider-track');
     const images = track.getElementsByClassName('sliderImg');
 
-    debugger 
+   // debugger 
     // Calcular a largura total das imagens para definir a largura do slider-track
     let trackWidth = 0;
     for (let img of images) {
