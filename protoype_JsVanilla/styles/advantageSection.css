@@ -1,0 +1,38 @@
+
+.card{
+        
+    background-color: #5bb3f1;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 10 10 3px 3px #000;
+    justify-items: center;
+
+}
+
+.card h2{
+    font-weight: 400 !important;
+    font-size: 1.4rem;
+    margin: .5rem 3.8rem;
+    justify-self: center;
+    text-align: center;
+}
+
+.card p{
+    font-weight: 300 !important;
+    font-size: .9rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.card img{
+    border: .5px solid black;
+    border-radius: 1rem;
+}
+
+.c2 h2{
+    margin: .5rem 2.1rem;
+}
