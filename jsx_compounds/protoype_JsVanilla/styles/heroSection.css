@@ -170,8 +170,7 @@ ul{
     
     .slider-track {
         display: inline-block;
-        white-space: nowrap;
-        animation: 10s infinite slide linear;
+        animation: 20s infinite slide linear;
         max-height: fit-content;
         overflow: hidden;
     }
@@ -186,7 +185,7 @@ ul{
     
     @keyframes slide {
         from {
-            transform: translateX(0);
+            transform: translateX(max-width);
         }
         to {
             transform: translateX(-100%);
