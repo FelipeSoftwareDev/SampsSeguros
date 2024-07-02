@@ -155,43 +155,61 @@ ul{
     }
         
     #partners h3{
-            margin: 1rem 6.6rem;
+            margin: 1rem 6.65rem;
             font-size: .7rem;
             font-weight: 600;
             max-width: 100vw;
     }
-
-    .slider {
-        width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
-        position: relative;
-        box-sizing: border-box;
-        place-content: center;
-        overflow: hidden;
-    }
-    
-    .slider-track {
-        display: inline-block;
-        animation: 20s infinite slide linear;
-        max-height: fit-content;
-        overflow: hidden;
-    }
-    
-    .slider-track img {
-        width: 100px; /* Defina o tamanho das imagens conforme necessário */
-        display: inline-block;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        overflow: hidden;
-    }
     
     @keyframes slide {
         from {
-            transform: translateX(max-width);
+            transform: translateX(0);
         }
         to {
             transform: translateX(-100%);
         }
     }    
 
+    .slideTrack{
+        box-sizing: border-box;
+        background-color: #FFF;
+        overflow: hidden;
+        padding: 4rem 0;
+        white-space: nowrap;
+        position: relative;
+        z-index: -1;
+    }
+
+    .slideTrack:after{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50px;
+        background: linear-gradient(to left, #fff , #ffffff00);
+        content: "";
+        z-index: 1;
+    }
+    
+    .slideTrack:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50px;
+        background: linear-gradient(to right, #fff, #ffffff00);
+        content: "";
+        z-index: 1;
+    }
+    
+    
+    .logos-slide{
+        animation: 10s slide infinite linear;
+        display: inline-block;
+        
+    }
+    
+    .logos-slide img{
+        height: 5rem;
+        margin: 0 3rem;
+    }

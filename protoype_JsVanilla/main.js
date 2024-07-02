@@ -1,5 +1,5 @@
 
-window.onload = function() {
+/* window.onload = function() {
     const track = document.getElementById('slider-track');
     const images = track.getElementsByClassName('sliderImg');
 
@@ -16,4 +16,4 @@ window.onload = function() {
     // Clonar o slider-track para criar um efeito de loop contínuo
     let clone = track.cloneNode(true);
     document.querySelector('.slider').appendChild(clone);
-};
+}; */

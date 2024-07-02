@@ -4,12 +4,12 @@
     background-color: #5bb3f1;
     padding: 1rem;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 1rem .5rem;
     display: grid;
     place-items: center;
     box-shadow: 10 10 3px 3px #000;
     justify-items: center;
-    height: 21rem;
+    height: 25rem;
 }
 
 .card h2{
@@ -22,7 +22,7 @@
 
 .card p{
     font-weight: 600 !important;
-    font-size: .9rem;
+    font-size: .8rem;
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
@@ -31,7 +31,6 @@
 }
 
 .card img{
-    border: .5px solid black;
     border-radius: 1rem;
 }
 
