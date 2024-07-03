@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "start-server": "node --watch ./Back_End/server.js",
+    "seed_mongo":"node ./Back_End/db/seed.js"
+  },
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "express": "^4.19.2",
+    "readline-sync": "^1.4.10",
+    "mongodb": "^6.7.0"
   }
 }
