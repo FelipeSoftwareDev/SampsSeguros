@@ -10,7 +10,8 @@
 }
 
 .ide{
-    height: 80%;
+    height: 80% !important;
+    filter: brightness(2);
 }
 
 .lastCta h2{
@@ -53,18 +54,17 @@
     margin: 1rem;
     color: #000;
     display: flexbox;
-    
 }
 
-.form form{
-
+.name label{
+    display: block;
 }
 
-.form label{
+label{
    font-size: .8rem;
    font-weight: 600;
    margin-right: auto;
-
+    display: block !important;
 }
 
 .form input{
