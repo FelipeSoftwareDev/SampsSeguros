@@ -1,0 +1,84 @@
+.lastCta{
+    border-radius: 1rem;
+    background-color: #192bcacb;
+    color: #fff;
+    padding: 2rem;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ide{
+    height: 80%;
+}
+
+.lastCta h2{
+    font-size: 1rem;
+    margin: 2rem 2rem;
+    font-weight: 600;
+}
+
+.lastCta p{
+    font-size: .8rem;
+    margin: 1rem 1rem;
+}
+
+.policyHolders{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.policyHolders img{
+    height: auto;
+    padding: .5rem;
+    margin: .6rem;
+}
+
+.formArea h2{
+    margin-bottom: 0;
+}
+
+.formArea h3{
+    margin: .3rem 0 2rem 0;
+}
+
+.formArea{
+    padding: .9rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    width: 80%;
+    margin: 1rem;
+    color: #000;
+    display: flexbox;
+    
+}
+
+.form form{
+
+}
+
+.form label{
+   font-size: .8rem;
+   font-weight: 600;
+   margin-right: auto;
+
+}
+
+.form input{
+    margin-bottom: 1rem;
+    height: 1.4rem;
+    width: 13rem;
+    border-radius: .2rem;
+    border: solid 1px #000;
+}
+
+.submit button{
+    background-color: #5f24ce;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+}
