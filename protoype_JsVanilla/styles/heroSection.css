@@ -210,6 +210,6 @@ ul{
     }
     
     .logos-slide img{
-        height: 5rem;
+        height: auto;
         margin: 0 3rem;
     }
