@@ -1,6 +1,8 @@
+.benefits{
+    max-width: 100%;
+}
 
 .card{
-        
     background-color: #5bb3f1;
     padding: 1rem;
     border-radius: 1rem;
