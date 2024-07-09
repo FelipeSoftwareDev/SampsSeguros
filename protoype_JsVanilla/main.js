@@ -1,19 +1,48 @@
 
-/* window.onload = function() {
-    const track = document.getElementById('slider-track');
-    const images = track.getElementsByClassName('sliderImg');
+const form = document.querySelector('form')
+const inputName = document.querySelector('input[name="name"]')
+const inputLastName = document.querySelector('input[name="lastName"]')
+const inputCellphone = document.querySelector('input[name="cellphone"]')
+const conclusion = document.querySelector('.conclusion')
+const formArea = document.querySelector('.formArea')
 
-   // debugger 
-    // Calcular a largura total das imagens para definir a largura do slider-track
-    let trackWidth = 0;
-    for (let img of images) {
-        trackWidth += img.width;
+const invalidField = (elem) => {
+    elem.classList.add('invalid');
+    elem.nextElementSibling.classList.remove('hidden');
+}
+
+
+const inputValidation = () =>{
+// ! pra representar input diferente de value ou seja sem valor inserido
+    if (!inputName.value){
+        invalidField(inputName)
     }
 
-    // Definir a largura do track
-    track.style.width = trackWidth + 'px';
+    if (!inputLastName.value){
+        invalidField(inputLastName)
+    }
 
-    // Clonar o slider-track para criar um efeito de loop contínuo
-    let clone = track.cloneNode(true);
-    document.querySelector('.slider').appendChild(clone);
-}; */
+    if (!inputCellphone.value){
+        invalidField(inputCellphone)
+    }
+
+    else{
+        isValidForm = true;
+    }
+}
+
+form.addEventListener("submit", (e) =>{
+    e.preventDefault()
+    inputValidation()
+
+    if (isValidForm){
+        formArea.remove()
+        conclusion.classList.remove('hidden')        
+        console.log('Formulário enviado')
+    }
+})
+
+inputName.addEventListener('input', () => {
+    inputName.classList.remove('invalid')
+    inputName.nextElementSibling.classList.add('hidden')
+})
