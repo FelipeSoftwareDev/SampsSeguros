@@ -212,7 +212,7 @@ ul{
     }
     
     .logos-slide img{
-        height: auto;
+        width: auto;
         margin: 0 3rem;
     }
 
@@ -222,7 +222,7 @@ ul{
         bottom: .8rem;
         overflow: hidden;
         max-width: 100%;
-        
+        z-index: 2;
     }
 
     .wpp img{
