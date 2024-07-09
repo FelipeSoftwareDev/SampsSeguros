@@ -1,0 +1,104 @@
+@media screen and (max-width: 321px){
+    .ornament{
+        position: absolute;
+        right: -0rem !important;
+        bottom: -13rem !important;
+        width: 23rem;
+    }
+
+    .car {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: -3rem;
+}
+
+  h1{ font-size: 1.5rem;
+    margin-left: 1.4rem;
+    margin-right: .4rem;
+}
+
+.internBtn {
+    font-size: 0.85rem !important;
+    padding: .5rem .8rem !important;
+}
+
+  p{
+    font-size: 0.6rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+  }  
+
+  .card img{
+    width: 80%;
+  }
+
+
+#partners h3{
+    margin: 1rem 4.65rem;
+}
+
+  .lastCta{
+    width: 15.5rem;
+    max-width: 100%;
+    overflow: hidden;
+
+  }
+
+  .form input{
+    width: 12rem;
+  }
+
+  ::placeholder{
+    font-size: .6rem;
+  }
+
+  .submit button{
+    font-size: .6rem;
+    margin: 2rem 0;
+  }
+
+}
+
+@media (max-width: 360px){
+
+  h1{
+    margin-right: 0;
+  }
+
+  .btn1{
+    width: 63%;
+  }
+
+  #partners h3 {
+    margin: 1rem 6.2rem;
+  }
+
+  .card {
+    padding: .5rem;
+  }
+
+  .submit button{
+    padding: .8rem 1rem;
+  }
+
+  .lastCta p {
+    margin: 1rem 0rem;
+}
+
+}
+
+@media (max-width: 375px){
+  
+}
+
+@media (max-width: 412px){
+
+}
+
+@media (max-width: 428px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
