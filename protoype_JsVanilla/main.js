@@ -18,11 +18,11 @@ const inputValidation = () =>{
         invalidField(inputName)
     }
 
-    if (!inputLastName.value){
+    else if (!inputLastName.value){
         invalidField(inputLastName)
     }
 
-    if (!inputCellphone.value){
+    else if (!inputCellphone.value){
         invalidField(inputCellphone)
     }
 
