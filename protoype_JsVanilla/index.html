@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="styles/heroSection.css" />
   <link rel="stylesheet" href="styles/advantageSection.css" />
   <link rel="stylesheet" href="styles/form.css" />
-  <link rel="stylesheet" href="styles/responsive.css">
   <link rel="stylesheet" href="styles/ornamentResponsive.css">
+  <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
 
@@ -181,12 +181,12 @@
           <div class="lastName">
             <label for="lastName">Sobrenome*</label>
             <input type="text" name="lastName" placeholder="   Digite seu sobrenome" />
-            <p class="error hidden">Por favor insira um sobre-nome válido*</p>
+            <p class="error hidden">Por favor insira um sobrenome válido*</p>
           </div>
 
           <div class="cellphone">
             <label for="cellphone">Celular com DDD*</label>
-            <input type="text" name="cellphone" value="   +55" />
+            <input type="number" name="cellphone" placeholder=" +55" />
             <p class="error hidden">Por favor insira um número válido*</p>
           </div>
           <div class="plate">
@@ -194,9 +194,19 @@
             <input type="text" name="plate" placeholder="   ___-____" />
           </div>
 
-          <!-- <p>Aceito que a Samps entre em contato com o número fornecido.</p>
-        -->
+          <div id="agreement">
+            
+            <div class="container">
+            <input name="agreeCheck" type="checkbox">
+            <p> 
+              Eu aceito que a Samps entre em contato com o número fornecido. 
+            </p>
+            </div>
+          <p class="error hidden">
+            *Precisamos de seu consentimento para continuar.
+          </p>
 
+        </div>
           <div class="submit">
             <button id="subButton">Falar com um especialista</button>
           </div>
@@ -206,7 +216,8 @@
         <h2>Contato enviado!</h2>
           <p> Agora basta aguardar que nossa equipe entrará em contato assim que possível.</p>
       </div>
-    </div>
+
+
   </div>
 
   <script src="main.js"></script>
