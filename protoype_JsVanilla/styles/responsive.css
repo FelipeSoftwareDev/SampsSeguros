@@ -122,6 +122,10 @@
     margin: 0 .5rem;
   }
 
+  .error{
+    margin-left: .7rem !important;
+  }
+
 }
 
 /* pensando na 375 width*/
