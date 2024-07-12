@@ -71,8 +71,8 @@
     <img class="car" src="assets/carVector.svg" alt="Acidente de Veículos" width="250rem" />
     <div class="wpp">
       <a href="https://api.whatsapp.com/send/?phone=5581989464963&text=Ol%C3%A1%21+Eu+gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+sem+compromisso%21&type=phone_number&app_absent=0"
-         target="_blank">
-      <img src="assets/wpp.svg" width="50rem" alt="whatsapp button">
+        target="_blank">
+        <img src="assets/wpp.svg" width="50rem" alt="whatsapp button">
       </a>
 
     </div>
@@ -169,7 +169,7 @@
 
       <div class="formArea">
         <h2>Fale com um </h2>
-        <h3>especialista</h3>
+        <h3>Especialista</h3>
         <p>Preencha os campos abaixo e nosso time entrará em contato:</p>
         <form class="form">
           <div class="name">
@@ -186,7 +186,7 @@
 
           <div class="cellphone">
             <label for="cellphone">Celular com DDD*</label>
-            <input type="number" name="cellphone" placeholder=" +55" />
+            <input type="number" name="cellphone" placeholder=" +55 (__) _____-____" />
             <p class="error hidden">Por favor insira um número válido*</p>
           </div>
           <div class="plate">
@@ -195,18 +195,18 @@
           </div>
 
           <div id="agreement">
-            
-            <div class="container">
-            <input name="agreeCheck" type="checkbox">
-            <p> 
-              Eu aceito que a Samps entre em contato com o número fornecido. 
-            </p>
-            </div>
-          <p class="error hidden">
-            *Precisamos de seu consentimento para continuar.
-          </p>
 
-        </div>
+            <div class="container">
+              <input name="agreeCheck" type="checkbox">
+              <p>
+                Eu aceito que a Samps entre em contato com o número fornecido.
+              </p>
+            </div>
+            <p class="error hidden">
+              *Precisamos de seu consentimento para continuar.
+            </p>
+
+          </div>
           <div class="submit">
             <button id="subButton">Falar com um especialista</button>
           </div>
@@ -214,13 +214,16 @@
       </div>
       <div class="conclusion hidden">
         <h2>Contato enviado!</h2>
-          <p> Agora basta aguardar que nossa equipe entrará em contato assim que possível.</p>
+        <p> Agora basta aguardar que nossa equipe entrará em contato assim que possível.</p>
       </div>
 
 
-  </div>
+    </div>
 
-  <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <script src="main.js"></script>
+
+
 </body>
 
 </html>

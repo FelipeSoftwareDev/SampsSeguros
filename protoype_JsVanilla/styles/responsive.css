@@ -1,104 +1,306 @@
-@media screen and (max-width: 321px){
-    .ornament{
-        position: absolute;
-        right: -0rem !important;
-        bottom: -13rem !important;
-        width: 23rem;
-    }
+@media screen and (max-width: 324px) {
 
-    .car {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        margin-top: -3rem;
-}
+  .ornament {
+    right: 1rem;
+  }
 
-  h1{ font-size: 1.5rem;
+  .car {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: -3rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
     margin-left: 1.4rem;
     margin-right: .4rem;
-}
+  }
 
-.internBtn {
+  .internBtn {
     font-size: 0.85rem !important;
     padding: .5rem .8rem !important;
-}
+  }
 
-  p{
+  p {
     font-size: 0.6rem;
     margin-left: 1.4rem;
     margin-right: 1.4rem;
-  }  
+  }
 
-  .card img{
+  .card img {
     width: 80%;
   }
 
+  #partners h3 {
+    margin: 1rem 4.65rem !important;
+  }
 
-#partners h3{
-    margin: 1rem 4.65rem;
-}
-
-  .lastCta{
-    width: 15.5rem;
+  .lastCta {
     max-width: 100%;
     overflow: hidden;
 
   }
 
-  .form input{
+  .form input {
     width: 12rem;
   }
 
-  ::placeholder{
+  ::placeholder {
     font-size: .6rem;
   }
 
-  .submit button{
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .submit button {
     font-size: .6rem;
     margin: 2rem 0;
+    padding: .8rem 1rem;
+  }
+
+  #agreement p {
+    margin-right: 0rem;
+    margin-left: .5rem;
+    font-size: .6rem;
   }
 
 }
 
-@media (max-width: 360px){
+/* pensando na 360 width*/
+@media (min-width: 350px) {
 
-  h1{
+  .ornament {
+    right: 2rem;
+  }
+
+  h1 {
     margin-right: 0;
   }
 
-  .btn1{
+  .btn1 {
     width: 63%;
   }
 
   #partners h3 {
-    margin: 1rem 6.2rem;
+    margin: 1rem;
   }
 
   .card {
     padding: .5rem;
   }
 
-  .submit button{
+  .card p {
+    margin-bottom: 1rem;
+  }
+
+  .submit button {
     padding: .8rem 1rem;
+  }
+
+  .lastCta {
+    padding: 1rem;
   }
 
   .lastCta p {
     margin: 1rem 0rem;
-}
+  }
+
+  label {
+    margin-left: .5rem;
+  }
+
+  .container {
+    margin: 0 .5rem;
+  }
 
 }
 
-@media (max-width: 375px){
-  
+/* pensando na 375 width*/
+@media (min-width: 370px) {
+  .ornament {
+    right: 3rem;
+  }
+
+  #agreement {
+    padding: 0 1rem;
+  }
 }
 
-@media (max-width: 412px){
+/* pensando na 412 width*/
+@media (min-width: 400px) {
+
+  h1 {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem !important;
+    font-size: 1.9rem;
+  }
+
+  p {
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    font-size: .8rem;
+  }
+
+  .btn1 {
+    margin: 1rem 3rem;
+  }
+
+  .internBtn {
+    font-size: 1.2rem !important;
+  }
+
+  .ornament {
+    right: 5.5rem;
+  }
+
+  .peopleVector {
+    left: 6.5rem;
+  }
+
+  .whiteArrow {
+    left: 4.8rem;
+  }
+
+  .advantages h2 {
+    margin-left: 12.5rem;
+  }
+
+  .advantages p {
+    margin-left: 12.5rem;
+  }
+
+  .car {
+    margin-left: 4rem;
+
+  }
+
+  label {
+    margin-left: 1.5rem;
+  }
+
+  .error {
+    margin-left: 2rem !important;
+  }
+
+  #agreement {
+    padding: 0 2rem;
+  }
+
+  .formArea h3 {
+    margin: .3rem 0 3rem 0;
+  }
 
 }
 
-@media (max-width: 428px){
+/* pensando na 428 width*/
+@media (min-width: 426px) {
 
+
+
+  .ornament {
+    right: 6.5rem;
+  }
+
+
+
+
+
+
+
+  .error {
+    margin-left: 2.5rem !important;
 }
 
-@media screen and (max-width: 480px){
+  #agreement {
+    padding: 0 2.5rem;
+  }
+
+  label {
+    margin-left: 2rem;
+    margin-bottom: .4rem;
+  }
+}
+
+/* pensando na 480 width*/
+@media screen and (min-width: 478px) {
+
+
+.menu{
+  margin-right: 2rem;
+}
+
+.logo{
+  margin-left: 2rem;
+}
+
+.ornament {
+    right: 6.5rem;
+    bottom: -24rem;
+    width: 28rem;
+}
+
+li{
+  font-size: .95rem;
+}
+
+  h1{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+
+
+  #heroSection p{
+    margin-right: 2.5rem;
+  }
+
+  .peopleVector{
+    top: 3rem;
+  }
+
+  .whiteArrow{
+    top:4rem;
+  }
+
+  .advantages h2{
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: .9rem;
+}
+
+.card img{
+  width: 25rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  line-height: 1.2rem;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1.2rem .9rem;
+  height: 32rem;
+  border-radius: 1.4rem;
+}
+
+.card h2{
+  font-size: 1.6rem;
+  margin: 1rem 1.8rem;
+}
+
+
 
 }

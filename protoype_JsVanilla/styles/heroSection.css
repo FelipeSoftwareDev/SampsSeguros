@@ -157,10 +157,11 @@ ul{
     }
         
     #partners h3{
-            margin: 1rem 6.65rem;
+            margin: 1rem 4.65rem;
             font-size: .7rem;
             font-weight: 600;
             max-width: 100vw;
+            text-align: center;
     }
     
     @keyframes slide {
