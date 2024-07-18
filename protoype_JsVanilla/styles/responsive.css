@@ -142,6 +142,14 @@
 /* pensando na 412 width*/
 @media (min-width: 400px) {
 
+  .ornament {
+    right: 4.8rem;
+  }
+
+  li{
+    margin-left: .5rem;
+  }
+
   h1 {
     margin-right: 2.5rem;
     margin-left: 2.5rem !important;
@@ -152,6 +160,11 @@
     margin-left: 2.5rem;
     margin-right: 1.5rem;
     font-size: .8rem;
+  }
+
+
+  .advantages p{
+    margin-right: 1rem;
   }
 
   .btn1 {
@@ -210,16 +223,63 @@
 
 
 
-  .ornament {
-    right: 6.5rem;
+  h1{
+    margin-bottom: 1rem ;
   }
 
 
+  .btn1 {
+    margin: 1.5rem 3rem;
+  }
 
+  .ornament {
+    right: 5.5rem;
+    bottom: -15.5rem;
+    width: 24rem;
+}
 
+  li
+   {font-size: 0.9rem;}
 
+  .peopleVector{
+    left: 7.5rem;
+  }
 
+  .whiteArrow {
+    left: 5.8rem;
+  }
 
+  .advantages h2{
+    margin-left: 13.5rem;
+  }
+
+  .advantages p{
+    margin-left: 13.5rem;
+  }
+
+  .card img{
+    width: 24rem;
+  }
+
+  .card{
+    height: 28rem;
+  }
+
+  .card h2{
+    margin: 1rem 1.8rem;
+  }
+
+  .card p{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: .9rem;
+    line-height: 1rem;
+  }
+
+  .c2 p{
+    margin-left: 3rem ;
+    margin-right: 3rem ;
+  }
   .error {
     margin-left: 2.5rem !important;
 }
@@ -228,10 +288,43 @@
     padding: 0 2.5rem;
   }
 
-  label {
-    margin-left: 2rem;
-    margin-bottom: .4rem;
+  .lastCta h2 {
+    font-size: 1.2rem;
   }
+  
+  .formArea h3 {
+    font-size: 1.3rem;
+  }
+
+  .lastCta p {
+    font-size: .9rem;
+}
+
+
+  label {
+    margin-left: .8em;
+    margin-bottom: .4rem;
+    font-size: .9rem;
+  }
+
+  .form input{
+    width: 18rem;
+    height: 2.2rem;
+  }
+
+  .error {
+    margin-left: 1rem !important;
+}
+
+  .cellphone label{
+    width: 9rem;
+  }
+
+  .plate label{
+    width: 8rem;
+  }
+
+
 }
 
 /* pensando na 480 width*/

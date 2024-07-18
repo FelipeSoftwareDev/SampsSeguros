@@ -17,6 +17,11 @@
   }
 }
 
+@media screen and (min-height: 697px){
+.ornament {
+  bottom: -13rem;
+}}
+
 @media screen and (min-height: 780px) {
   .ornament {
     bottom: -6.7rem;
