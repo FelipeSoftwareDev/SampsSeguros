@@ -1,36 +1,44 @@
 @media screen and (min-height: 635px) {
   .ornament {
-    bottom: -14rem;
+    bottom: -14rem !important;
     right: 1rem;
   }
 }
 
 @media screen and (min-height: 640px) {
   .ornament {
-    bottom: -15.4rem;
+    bottom: -15.4rem !important;
   }
 }
 
 @media screen and (min-height: 650px) {
   .ornament {
-    bottom: -13rem;
+    bottom: -13rem !important;
   }
 }
 
 @media screen and (min-height: 697px){
 .ornament {
-  bottom: -13rem;
+  bottom: -12rem !important;
 }}
+
+@media screen and (min-height: 763px) { 
+
+  .ornament{
+    bottom: -11rem !important;
+  }
+  
+}
 
 @media screen and (min-height: 780px) {
   .ornament {
-    bottom: -6.7rem;
+    bottom: -6.7rem !important;
 }
 }
 
 @media screen and (min-height: 812px) {
   .ornament {
-    bottom: -3rem;
+    bottom: -3rem !important;
   }
 }
 
