@@ -327,6 +327,13 @@
 
 }
 
+/* pensando na 447 width*/
+@media (min-width: 441px){
+  .ornament{
+    right: 6.5rem;
+  }
+}
+
 
 @media (min-width: 452px) {
   h1 {
@@ -343,16 +350,22 @@
   }
 }
 
+@media (min-width: 457px) {
+  .ornament {
+    right: 7.5rem;
+  }
+}
+
 /* pensando na 480 width*/
 @media screen and (min-width: 478px) {
 
   h1{
-    margin-right: 3.5rem;
-    margin-left: 3.5rem !important;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem !important;
   }
 
   p {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
     margin-right: 2.5rem;
   }
 

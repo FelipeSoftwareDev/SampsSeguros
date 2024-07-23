@@ -22,6 +22,11 @@
   bottom: -12rem !important;
 }}
 
+@media screen and (min-height: 750px){
+.ornament {
+  bottom: -18rem !important;
+}}
+
 @media screen and (min-height: 763px) { 
 
   .ornament{
