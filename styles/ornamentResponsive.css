@@ -32,7 +32,7 @@
 
 @media screen and (min-height: 780px) {
   .ornament {
-    bottom: -6.7rem !important;
+    bottom: -10rem !important;
 }
 }
 
@@ -42,14 +42,46 @@
   }
 }
 
-@media screen and (min-height: 844px) {
+@media screen and (min-height: 830px) {
   .ornament {
-    bottom: -1rem;
+    bottom: -7rem !important;
   }
 }
 
-@media screen and (min-height: 926px) {
+
+@media screen and (min-height: 844px) {
   .ornament {
-    bottom: 4.5rem;
+    bottom: -6rem !important;
+  }
+}
+
+@media screen and (min-height: 864px) {
+  .ornament {
+    bottom: -5rem !important;
+  }
+}
+
+@media screen and (min-height: 875px) {
+  .ornament {
+    bottom: -4.5rem !important;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .ornament {
+    bottom: -2.7rem !important;
+  }
+}
+
+@media screen and (min-height: 919px) {
+.ornament {
+  bottom: -1.7rem !important;
+}
+}
+
+
+@media screen and (min-height: 925px) {
+  .ornament {
+    bottom: -1rem !important;
   }
 }
