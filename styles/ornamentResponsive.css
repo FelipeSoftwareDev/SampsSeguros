@@ -1,3 +1,4 @@
+
 @media screen and (min-height: 635px) {
   .ornament {
     bottom: -14rem !important;
@@ -21,6 +22,17 @@
 .ornament {
   bottom: -12rem !important;
 }}
+
+@media screen and (min-height: 735px){
+.ornament {
+  bottom: -20rem !important;
+}}
+
+@media screen and (min-height: 745px) {
+  .ornament {
+      bottom: -12rem !important;
+  }
+}
 
 @media screen and (min-height: 750px){
 .ornament {
@@ -90,3 +102,84 @@
     bottom: -1rem !important;
   }
 }
+
+
+
+@media (min-width: 425px) and (min-height: 733px) {
+  .ornament{
+    bottom: -10rem !important;
+  }
+}
+
+@media (min-width: 425px) and (min-height: 764px) {
+  .ornament {
+    bottom: -8rem !important;
+  }
+  }
+
+
+@media (min-width: 425px) and (min-height: 812px) {
+  .ornament{
+    bottom: -5rem !important;
+  }
+}
+
+
+
+@media (min-width: 478px) and (min-height: 763px) {
+  
+  .ornament{
+    bottom: -18rem !important;
+  }
+  
+}
+
+
+
+@media (min-width: 478px) and (min-height: 780px) {
+
+  .ornament{
+    bottom: -17rem !important;
+  }
+
+}
+
+@media (min-width: 478px) and (min-height: 800px) {
+  .ornament{
+    bottom: -15rem !important;
+  }
+}
+
+@media (min-width: 478px) and (min-height: 829px) {
+  .ornament {
+    bottom: -14rem !important;
+  }
+} 
+
+@media (min-width: 478px) and (min-height: 839px) {
+
+  .ornament{
+    bottom: -11.8rem !important;
+  }
+
+}
+
+
+
+@media (min-width: 525px) and (min-height: 735px){
+  .ornament {
+      bottom: -19rem !important;
+      right: 8.5rem !important;
+  }
+}
+
+@media (min-width: 635px) and (min-height: 735px){
+.ornament {
+  right: 16.5rem !important;
+  bottom: -16rem !important;
+}
+
+}
+
+
+

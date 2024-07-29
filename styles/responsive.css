@@ -335,6 +335,8 @@
 }
 
 
+
+
 @media (min-width: 452px) {
   h1 {
     margin-right: 3.5rem;
@@ -353,6 +355,12 @@
 @media (min-width: 457px) {
   .ornament {
     right: 7.5rem;
+  }
+}
+
+@media (min-width: 462px) {
+  label {
+    margin-left: 1.8em;
   }
 }
 
@@ -437,5 +445,87 @@ li{
 }
 
 
+
+}
+
+@media screen and (min-width: 508px){
+  .ornament {
+    right: 7.5rem;
+  }
+
+  .form label {
+    margin-left: 3em;
+}
+
+.lastCta p {
+  margin: 1rem 1rem;
+}
+
+#agreement .container {
+  margin: 0 .5rem;
+}}
+
+
+
+
+@media (min-width: 635px){
+
+}
+
+
+
+
+
+@media (min-width: 478px) and (min-height: 811px) {
+  .ornament {
+
+    bottom: -15rem !important;
+
+}
+
+.peopleVector {
+  top: 4rem !important;
+}
+
+.whiteArrow {
+  top: 5rem !important;
+}
+
+.advantages h2 {
+  margin-top: 3rem !important;
+}
+}
+
+@media screen and (min-width: 524px){
+
+  h1 {
+    margin-right: 3.5rem;
+    margin-left: 3.5rem !important;
+}
+
+p {
+  margin-left: 3.5rem;
+}
+
+.wpp img{
+width: 3.8rem;
+}
+
+.btn1 {
+  width: 48%;
+}
+
+.btn1 {
+  margin: 1.5rem 4rem;
+}
+
+
+.form label {
+  margin-left: 3.5em;
+}
+
+.error {
+  margin-left: 3.3rem !important;
+}
 
 }
