@@ -334,9 +334,6 @@
   }
 }
 
-
-
-
 @media (min-width: 452px) {
   h1 {
     margin-right: 3.5rem;
@@ -398,6 +395,7 @@ li{
   h1{
     font-size: 2.3rem;
     margin-bottom: 1rem;
+    
   }
 
 
@@ -478,54 +476,232 @@ li{
 
 @media (min-width: 478px) and (min-height: 811px) {
   .ornament {
-
+    
     bottom: -15rem !important;
-
-}
-
-.peopleVector {
-  top: 4rem !important;
-}
-
-.whiteArrow {
-  top: 5rem !important;
-}
-
-.advantages h2 {
-  margin-top: 3rem !important;
-}
+    
+  }
+  
+  .peopleVector {
+    top: 4rem !important;
+  }
+  
+  .whiteArrow {
+    top: 5rem !important;
+  }
+  
+  .advantages h2 {
+    margin-top: 3rem !important;
+  }
 }
 
 @media screen and (min-width: 524px){
-
+  
   h1 {
     margin-right: 3.5rem;
     margin-left: 3.5rem !important;
+  }
+  
+  p {
+    margin-left: 3.5rem;
+  }
+  
+  .wpp img{
+    width: 3.8rem;
+  }
+  
+  .btn1 {
+    width: 48%;
+  }
+  
+  .btn1 {
+    margin: 1.5rem 4rem;
+  }
+  
+  
+  .form label {
+    margin-left: 3.5em;
+  }
+  
+  .error {
+    margin-left: 3.3rem !important;
+  }
+  
+}
+@media screen and (min-width: 508px){
+  .ornament {
+    right: 7.5rem;
+  }
+
+  .form label {
+    margin-left: 3em;
 }
 
-p {
-  margin-left: 3.5rem;
+.lastCta p {
+  margin: 1rem 1rem;
 }
 
-.wpp img{
-width: 3.8rem;
+#agreement .container {
+  margin: 0 .5rem;
+}}
+
+@media (min-width: 600px){
+
+  .btn1 {
+    margin: 2rem 4rem;
 }
 
-.btn1 {
-  width: 48%;
+  h1 {
+    font-size: 2.65rem;
+    margin-bottom: 1.5rem;
+    margin-right: 4.6rem !important;
+    margin-left: 3.5rem !important;
+
+  }
+
+  p {
+    font-size: 1.1rem;
 }
 
-.btn1 {
-  margin: 1.5rem 4rem;
+.ornament {
+right: 40rem !important;
 }
 
+.car {
+  margin-left: 9rem;
+}
+
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+
+  .form input {
+    width: 20rem;
+  }
+
+  #agreement .container {
+    margin: 0 3.5rem;
+}
+
+  .lastCta h2 {
+
+    font-size: 1.4rem;
+    margin: 2rem 8rem;
+
+  }
+
+  .label {
+    font-size: 1rem;
+  }
 
 .form label {
-  margin-left: 3.5em;
+  margin-left: 4.5em !important;
 }
 
-.error {
-  margin-left: 3.3rem !important;
+.cellphone label {
+  width: 9.5rem;
 }
 
+.plate label {
+  width: 8.5rem;
+}
+
+#agreement p {
+  font-size: .8rem;
+}
+
+}
+
+@media (min-width: 635px){
+
+}
+
+
+@media (min-width: 800px){
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 9rem !important;
+  }
+
+#heroSection p {
+    font-size: 1.2rem;
+}
+
+.ornament {
+  right: 27rem !important;
+}
+
+.car {
+  margin-left: 17rem;
+}
+
+
+
+
+.card {
+  margin: 1.2rem 7.9rem;
+}
+
+.lastCta h2{
+  margin: 1rem 8rem;
+}
+
+.lastCta p {
+  margin: 1rem 4rem;
+}
+
+#agreement p {
+  margin: 1rem;
+}
+
+#agreement input {
+  margin: 0;
+}
+
+.form label {
+  margin-left: 4.5rem !important;
+}
+
+.cellphone label {
+  width: 8.5rem;
+}
+
+.plate label {
+  width: 8rem;
+}
+
+.formArea {
+  width: 60%;
+  margin: 1rem 9rem;
+}
+
+
+
+
+}
+
+@media (min-width: 1023px) {
+
+h1{
+  font-size: 4rem;
+  margin-left: 5.5rem !important;
+  margin-right: 15rem !important;
+}
+
+  .ornament {
+    right: 38rem !important;
+    width: 30rem;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+  
 }

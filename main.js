@@ -1,3 +1,14 @@
+
+
+window.addEventListener('load', function() {
+    if (window.innerWidth >= 980) { // Ajuste o breakpoint conforme necessário
+        document.getElementById('warning-message').style.display = 'flex';
+        document.getElementById('original-content').classList.add('blurred');
+    }
+});
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     const inputName = document.querySelector('input[name="name"]');
@@ -87,3 +98,5 @@ document.addEventListener('DOMContentLoaded', () => {
         agreeCheck.parentElement.nextElementSibling.classList.add('hidden');
     });
 });
+
+
