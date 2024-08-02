@@ -1,7 +1,7 @@
-@media screen and (max-width: 324px) {
+@media screen and (max-width: 325px) {
 
   .ornament {
-    right: 1rem;
+    right: 0;
   }
 
   .car {
@@ -17,7 +17,7 @@
   }
 
   .internBtn {
-    font-size: 0.85rem !important;
+    font-size: 0.76rem !important;
     padding: .5rem .8rem !important;
   }
 
@@ -74,6 +74,10 @@
   }
 
 }
+@media (min-width: 330px) {
+.internBtn {
+  font-size: .8rem !important;
+}}
 
 /* pensando na 360 width*/
 @media (min-width: 350px) {
@@ -116,13 +120,14 @@
 
   label {
     margin-left: .5rem;
+    margin-bottom: .2rem;
   }
 
   .container {
     margin: 0 .5rem;
   }
 
-  .error{
+  .error {
     margin-left: .7rem !important;
   }
 
@@ -146,7 +151,7 @@
     right: 4.8rem;
   }
 
-  li{
+  li {
     margin-left: .5rem;
   }
 
@@ -163,7 +168,7 @@
   }
 
 
-  .advantages p{
+  .advantages p {
     margin-right: 1rem;
   }
 
@@ -218,13 +223,15 @@
 
 }
 
+
+
 /* pensando na 428 width*/
-@media (min-width: 426px) {
+@media (min-width: 428px) {
 
 
 
-  h1{
-    margin-bottom: 1rem ;
+  h1 {
+    margin-bottom: 1rem;
   }
 
 
@@ -233,15 +240,16 @@
   }
 
   .ornament {
-    right: 5.5rem;
+    right: 6rem;
     bottom: -15.5rem;
     width: 24rem;
-}
+  }
 
-  li
-   {font-size: 0.9rem;}
+  li {
+    font-size: 0.9rem;
+  }
 
-  .peopleVector{
+  .peopleVector {
     left: 7.5rem;
   }
 
@@ -249,40 +257,41 @@
     left: 5.8rem;
   }
 
-  .advantages h2{
+  .advantages h2 {
     margin-left: 13.5rem;
   }
 
-  .advantages p{
+  .advantages p {
     margin-left: 13.5rem;
   }
 
-  .card img{
+  .card img {
     width: 24rem;
   }
 
-  .card{
+  .card {
     height: 28rem;
   }
 
-  .card h2{
+  .card h2 {
     margin: 1rem 1.8rem;
   }
 
-  .card p{
+  .card p {
     margin-left: 5rem;
     margin-right: 5rem;
     font-size: .9rem;
     line-height: 1rem;
   }
 
-  .c2 p{
-    margin-left: 3rem ;
-    margin-right: 3rem ;
+  .c2 p {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
+
   .error {
     margin-left: 2.5rem !important;
-}
+  }
 
   #agreement {
     padding: 0 2.5rem;
@@ -291,14 +300,14 @@
   .lastCta h2 {
     font-size: 1.2rem;
   }
-  
+
   .formArea h3 {
     font-size: 1.3rem;
   }
 
   .lastCta p {
     font-size: .9rem;
-}
+  }
 
 
   label {
@@ -307,20 +316,20 @@
     font-size: .9rem;
   }
 
-  .form input{
+  .form input {
     width: 18rem;
     height: 2.2rem;
   }
 
   .error {
     margin-left: 1rem !important;
-}
+  }
 
-  .cellphone label{
+  .cellphone label {
     width: 9rem;
   }
 
-  .plate label{
+  .plate label {
     width: 8rem;
   }
 
@@ -328,8 +337,8 @@
 }
 
 /* pensando na 447 width*/
-@media (min-width: 441px){
-  .ornament{
+@media (min-width: 441px) {
+  .ornament {
     right: 6.5rem;
   }
 }
@@ -339,6 +348,7 @@
     margin-right: 3.5rem;
     margin-left: 3.5rem !important;
   }
+
   p {
     margin-left: 3.5rem;
     margin-right: 2.5rem;
@@ -351,7 +361,7 @@
 
 @media (min-width: 457px) {
   .ornament {
-    right: 7.5rem;
+    right: 8.5rem;
   }
 }
 
@@ -364,7 +374,7 @@
 /* pensando na 480 width*/
 @media screen and (min-width: 478px) {
 
-  h1{
+  h1 {
     margin-right: 2.5rem;
     margin-left: 2.5rem !important;
   }
@@ -374,100 +384,94 @@
     margin-right: 2.5rem;
   }
 
-.menu{
-  margin-right: 2rem;
-}
+  .menu {
+    margin-right: 2rem;
+  }
 
-.logo{
-  margin-left: 2rem;
-}
+  .logo {
+    margin-left: 2rem;
+  }
 
-.ornament {
+  .ornament {
     right: 6.5rem;
     bottom: -24rem;
     width: 28rem;
-}
+  }
 
-li{
-  font-size: .95rem;
-}
+  li {
+    font-size: .95rem;
+  }
 
-  h1{
+  h1 {
     font-size: 2.3rem;
     margin-bottom: 1rem;
-    
+
   }
 
 
-  #heroSection p{
+  #heroSection p {
     margin-right: 2.5rem;
   }
 
-  .peopleVector{
+  .peopleVector {
     top: 3rem;
   }
 
-  .whiteArrow{
-    top:4rem;
+  .whiteArrow {
+    top: 4rem;
   }
 
-  .advantages h2{
+  .advantages h2 {
     margin-top: 2rem;
   }
 
   p {
     font-size: .9rem;
+  }
+
+  .card img {
+    width: 25rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.2rem;
+  }
+
+  .card {
+    padding: 1rem;
+    margin: 1.2rem .9rem;
+    height: 32rem;
+    border-radius: 1.4rem;
+  }
+
+  .card h2 {
+    font-size: 1.6rem;
+    margin: 1rem 1.8rem;
+  }
+
+
+
 }
 
-.card img{
-  width: 25rem;
-}
-
-.card p {
-  font-size: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  line-height: 1.2rem;
-}
-
-.card {
-  padding: 1rem;
-  margin: 1.2rem .9rem;
-  height: 32rem;
-  border-radius: 1.4rem;
-}
-
-.card h2{
-  font-size: 1.6rem;
-  margin: 1rem 1.8rem;
-}
-
-
-
-}
-
-@media screen and (min-width: 508px){
+@media screen and (min-width: 508px) {
   .ornament {
     right: 7.5rem;
   }
 
   .form label {
     margin-left: 3em;
-}
+  }
 
-.lastCta p {
-  margin: 1rem 1rem;
-}
+  .lastCta p {
+    margin: 1rem 1rem;
+  }
 
-#agreement .container {
-  margin: 0 .5rem;
-}}
-
-
-
-
-@media (min-width: 635px){
-
+  #agreement .container {
+    margin: 0 .5rem;
+  }
 }
 
 
@@ -475,80 +479,77 @@ li{
 
 
 @media (min-width: 478px) and (min-height: 811px) {
-  .ornament {
-    
-    bottom: -15rem !important;
-    
-  }
-  
+
   .peopleVector {
     top: 4rem !important;
   }
-  
+
   .whiteArrow {
     top: 5rem !important;
   }
-  
+
   .advantages h2 {
     margin-top: 3rem !important;
   }
 }
 
-@media screen and (min-width: 524px){
-  
+@media screen and (min-width: 524px) {
+
   h1 {
     margin-right: 3.5rem;
     margin-left: 3.5rem !important;
   }
-  
+
   p {
     margin-left: 3.5rem;
   }
-  
-  .wpp img{
+
+  .wpp img {
     width: 3.8rem;
   }
-  
+
   .btn1 {
     width: 48%;
   }
-  
+
   .btn1 {
     margin: 1.5rem 4rem;
   }
-  
-  
+
+
   .form label {
     margin-left: 3.5em;
   }
-  
+
   .error {
     margin-left: 3.3rem !important;
   }
-  
+
 }
-@media screen and (min-width: 508px){
+
+@media screen and (min-width: 508px) {
   .ornament {
     right: 7.5rem;
   }
 
   .form label {
     margin-left: 3em;
+  }
+
+  .lastCta p {
+    margin: 1rem 1rem;
+  }
+
+  #agreement .container {
+    margin: 0 .5rem;
+  }
 }
 
-.lastCta p {
-  margin: 1rem 1rem;
-}
-
-#agreement .container {
-  margin: 0 .5rem;
-}}
-
-@media (min-width: 600px){
+@media (min-width: 600px) {
 
   .btn1 {
     margin: 2rem 4rem;
-}
+  }
 
   h1 {
     font-size: 2.65rem;
@@ -560,15 +561,16 @@ li{
 
   p {
     font-size: 1.1rem;
-}
+  }
 
-.ornament {
-right: 40rem !important;
-}
+  .ornament {
+    right: 13.5rem !important;
+  }
+  
 
-.car {
-  margin-left: 9rem;
-}
+  .car {
+      margin-left: 10rem;
+  }
 
   .card h2 {
     font-size: 1.8rem;
@@ -578,6 +580,13 @@ right: 40rem !important;
     font-size: 1.2rem;
   }
 
+  .formArea{
+    margin: 1rem 2.7rem;
+  }
+
+  .policyHolders img {
+    width: 6rem;
+  }
 
   .form input {
     width: 20rem;
@@ -585,7 +594,7 @@ right: 40rem !important;
 
   #agreement .container {
     margin: 0 3.5rem;
-}
+  }
 
   .lastCta h2 {
 
@@ -598,30 +607,109 @@ right: 40rem !important;
     font-size: 1rem;
   }
 
-.form label {
-  margin-left: 4.5em !important;
+  .form label {
+    margin-left: 4.5em !important;
+  }
+
+
+
+  .cellphone label {
+    width: 9.5rem;
+  }
+
+  .plate label {
+    width: 8.5rem;
+  }
+
+  #agreement p {
+    font-size: .8rem;
+  }
+
+  .plate label {
+    width: 7.6rem;
+  }
+
+  .cellphone label {
+    width: 8.5rem;
+  }
+
+  .error {
+    margin-left: 4.3rem !important;
 }
 
-.cellphone label {
-  width: 9.5rem;
 }
 
-.plate label {
-  width: 8.5rem;
+@media (min-width: 633px) {
+
+  .ornament{
+    right: 15rem !important;
+  }
+
+  .internBtn {
+    font-size: 1.4rem !important;
 }
 
-#agreement p {
-  font-size: .8rem;
+.btn1{
+  border: solid 3px #0094FF;
 }
 
+.btn1 img{
+width: 1.8rem;
+}
+  
+.car {
+    margin-left: 8rem;
+    width: 20rem;
+  }
+
+
+  .lastCta h2 {
+    margin: 0 8rem;
+    margin-top: 3rem;
+  }
+
+  .lastCta p {
+    margin: 1rem 9rem;
+    font-size: 1rem;
+  }
+
+  .formArea {
+    margin: 1rem 3rem;
+  }
+
+  .policyHolders img {
+    width: 7rem;
+  }
+
+  .form label {
+    margin-left: 5.5em !important;
+  }
+
+
+  #agreement p {
+    margin: 1rem;
+    margin-bottom: .1rem;
+  }
+
+  .error {
+    margin-left: 5.3rem !important;
+  }
+
+  .submit button {
+    font-size: 1rem;
+  }
+
 }
 
-@media (min-width: 635px){
-
+@media (min-width: 768px) {
+  .ornament{
+    width: 27rem;
+    right: 24rem !important;
+  }
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
 
   h1 {
     font-size: 3.5rem;
@@ -629,57 +717,57 @@ right: 40rem !important;
     margin-right: 9rem !important;
   }
 
-#heroSection p {
+  #heroSection p {
     font-size: 1.2rem;
-}
+  }
 
-.ornament {
-  right: 27rem !important;
-}
+  .ornament {
+    right: 27rem !important;
+  }
 
-.car {
-  margin-left: 17rem;
-}
-
-
+  .car {
+    margin-left: 17rem;
+  }
 
 
-.card {
-  margin: 1.2rem 7.9rem;
-}
 
-.lastCta h2{
-  margin: 1rem 8rem;
-}
 
-.lastCta p {
-  margin: 1rem 4rem;
-}
+  .card {
+    margin: 1.2rem 7.9rem;
+  }
 
-#agreement p {
-  margin: 1rem;
-}
+  .lastCta h2 {
+    margin: 1rem 8rem;
+  }
 
-#agreement input {
-  margin: 0;
-}
+  .lastCta p {
+    margin: 1rem 4rem;
+  }
 
-.form label {
-  margin-left: 4.5rem !important;
-}
+  #agreement p {
+    margin: 1rem;
+  }
 
-.cellphone label {
-  width: 8.5rem;
-}
+  #agreement input {
+    margin: 0;
+  }
 
-.plate label {
-  width: 8rem;
-}
+  .form label {
+    margin-left: 4.5rem !important;
+  }
 
-.formArea {
-  width: 60%;
-  margin: 1rem 9rem;
-}
+  .cellphone label {
+    width: 8.5rem;
+  }
+
+  .plate label {
+    width: 8rem;
+  }
+
+  .formArea {
+    width: 60%;
+    margin: 1rem 9rem;
+  }
 
 
 
@@ -688,20 +776,18 @@ right: 40rem !important;
 
 @media (min-width: 1023px) {
 
-h1{
-  font-size: 4rem;
-  margin-left: 5.5rem !important;
-  margin-right: 15rem !important;
-}
+  h1 {
+    font-size: 4rem;
+    margin-left: 5.5rem !important;
+    margin-right: 15rem !important;
+  }
 
   .ornament {
     right: 38rem !important;
     width: 30rem;
-}
+  }
 
 
 }
 
-@media (min-width: 1200px) {
-  
-}
+@media (min-width: 1200px) {}
