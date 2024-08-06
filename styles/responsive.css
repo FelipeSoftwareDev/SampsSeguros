@@ -144,6 +144,11 @@
   }
 }
 
+@media (min-width: 379px) {
+h1 {
+  margin-right: 1rem;
+}}
+
 /* pensando na 412 width*/
 @media (min-width: 400px) {
 
@@ -477,7 +482,6 @@
 
 
 
-
 @media (min-width: 478px) and (min-height: 811px) {
 
   .peopleVector {
@@ -493,11 +497,35 @@
   }
 }
 
+
+
+@media screen and (min-width: 508px) {
+  .ornament {
+    right: 7.5rem;
+  }
+
+  .form label {
+    margin-left: 3em;
+  }
+
+  .lastCta p {
+    margin: 1rem 1rem;
+  }
+
+  #agreement .container {
+    margin: 0 .5rem;
+  }
+}
+
 @media screen and (min-width: 523px) {
 
   h1 {
-    margin-right: 3.5rem;
+    margin-right: 4rem;
     margin-left: 3.5rem !important;
+  }
+
+  .ornament{
+    right: 10.5rem !important;
   }
 
   p {
@@ -531,23 +559,14 @@
 
 }
 
-@media screen and (min-width: 508px) {
+@media (min-width: 592px) {
+  h1 {
+    margin-right: 6.5rem;
+  }
   .ornament {
-    right: 7.5rem;
+    right: 12.5rem !important;
   }
-
-  .form label {
-    margin-left: 3em;
   }
-
-  .lastCta p {
-    margin: 1rem 1rem;
-  }
-
-  #agreement .container {
-    margin: 0 .5rem;
-  }
-}
 
 @media (min-width: 600px) {
 
@@ -558,7 +577,6 @@
   h1 {
     font-size: 2.65rem;
     margin-bottom: 1.5rem;
-    margin-right: 4.6rem !important;
     margin-left: 3.5rem !important;
 
   }
@@ -646,7 +664,7 @@
 @media (min-width: 633px) {
 
   .ornament{
-    right: 15rem !important;
+    right: 16rem !important;
   }
 
   .internBtn {
@@ -666,7 +684,11 @@ width: 1.8rem;
     width: 20rem;
   }
 
-
+  #partners h3 {
+    margin: 1rem 4.65rem;
+    font-size: 1rem;
+  }
+  
   .lastCta h2 {
     margin: 0 8rem;
     margin-top: 3rem;
@@ -705,7 +727,39 @@ width: 1.8rem;
 
 }
 
+@media (min-width: 665px) {
+  h1 {
+    margin-right: 7.5rem;
+  }
+}
+@media (min-width: 674px) {
+  h1 {
+    font-size: 2.95rem;
+    margin-right: 7.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+}
+
+.ornament {
+  right: 18rem !important;
+}
+
+}
+@media (min-width: 736px) {
+h1 {
+  margin-right: 9.5rem;
+}
+.ornament{
+  right: 22rem !important;
+}
+
+}
+
 @media (min-width: 768px) {
+  h1 {
+    margin-right: 11.5rem;
+}
   .ornament{
     width: 27rem;
     right: 24rem !important;
