@@ -493,7 +493,7 @@
   }
 }
 
-@media screen and (min-width: 524px) {
+@media screen and (min-width: 523px) {
 
   h1 {
     margin-right: 3.5rem;
@@ -502,6 +502,10 @@
 
   p {
     margin-left: 3.5rem;
+  }
+
+  .car{
+    margin-left: 7rem;
   }
 
   .wpp img {

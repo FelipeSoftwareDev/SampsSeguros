@@ -1,0 +1,139 @@
+
+.formArea h2{
+    margin-bottom: 0;
+}
+
+.formArea h3{
+    margin: .3rem 0 2rem 0;
+}
+
+.lastCta {
+    border-radius: 1rem;
+}
+
+
+.conclusion{
+    padding: .7rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    width: 80%;
+    margin: 1rem;
+    color: #000;
+}
+
+.formArea{
+    padding: .9rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    width: 80%;
+    margin: 1rem;
+    color: #000;
+    display: flexbox;
+}
+
+.name{
+    margin-bottom: 1rem;
+}
+
+.lastName{
+    margin-bottom: 1rem;
+}
+
+.cellphone{
+    margin-bottom: 1rem;
+}
+.error{
+    margin: .5rem !important;
+    text-align: start;
+    color: red;
+    font-size: .7rem !important;
+    display: block;
+}
+
+.name label{
+    display: block !important;
+    width: 3.5rem;
+}
+
+.lastName label{
+    width: 5.7rem;
+
+}
+
+
+
+.cellphone label{
+    width: 8rem;
+
+}
+
+
+
+label{
+   font-size: .8rem;
+   font-weight: 600;
+   margin-right: auto;
+   display: block !important;
+}
+
+.form input{
+    margin: 0;
+    height: 1.8rem;
+    width: 15rem;
+    border-radius: .25rem;
+    border: solid 1px #000;
+}
+
+.submit {
+    margin: 2rem .5rem;
+}
+
+.submit button{
+    background-color: #5f24ce;
+    color: #fff;
+    border: none;
+    border-radius: .7rem;
+    padding: .8rem 2rem;
+    font-size: .8rem;
+    
+}
+
+.plate label{
+    width: 7.5rem;
+}
+
+.invalid{
+    border: solid 1px red !important;
+}
+
+.hidden{
+    display: none;
+}
+
+#agreement {
+
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+#agreement input {
+    width: 1rem;
+    margin-top: .8rem;
+}
+
+#agreement p{
+    font-size: .7rem;
+    margin-bottom: .1rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+#agreement .error{
+    font-size: .6rem;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+}
