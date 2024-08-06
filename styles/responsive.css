@@ -1,7 +1,8 @@
 @media screen and (max-width: 325px) {
 
   .ornament {
-    right: 0;
+    right: 5rem;
+    width: 15rem;
   }
 
   .car {
@@ -83,7 +84,8 @@
 @media (min-width: 350px) {
 
   .ornament {
-    right: 2rem;
+    right: 6rem;
+    width: 16rem;
   }
 
   h1 {
@@ -228,7 +230,11 @@ h1 {
 
 }
 
-
+@media (min-width: 423px) {
+.ornament {
+  right: 9.5rem;
+  width: 17rem;
+}}
 
 /* pensando na 428 width*/
 @media (min-width: 428px) {
@@ -246,8 +252,7 @@ h1 {
 
   .ornament {
     right: 6rem;
-    bottom: -15.5rem;
-    width: 24rem;
+    width: 18rem;
   }
 
   li {
@@ -398,9 +403,8 @@ h1 {
   }
 
   .ornament {
-    right: 6.5rem;
-    bottom: -24rem;
-    width: 28rem;
+    right: 11rem;
+    width: 19rem;
   }
 
   li {
@@ -524,9 +528,9 @@ h1 {
     margin-left: 3.5rem !important;
   }
 
-  .ornament{
-    right: 10.5rem !important;
-  }
+  .ornament {
+    right: 14rem !important;
+}
 
   p {
     margin-left: 3.5rem;
@@ -559,12 +563,17 @@ h1 {
 
 }
 
+@media screen and (min-width: 568px) {
+h1 {
+  margin-right: 5rem;}
+}
+
 @media (min-width: 592px) {
   h1 {
     margin-right: 6.5rem;
   }
   .ornament {
-    right: 12.5rem !important;
+    right: 18.5rem !important;
   }
   }
 
@@ -575,20 +584,19 @@ h1 {
   }
 
   h1 {
-    font-size: 2.65rem;
+    font-size: 2.6rem;
     margin-bottom: 1.5rem;
     margin-left: 3.5rem !important;
-
+    margin-right: 6rem;
   }
 
   p {
     font-size: 1.1rem;
   }
-
-  .ornament {
-    right: 13.5rem !important;
-  }
   
+  .ornament {
+    width: 21rem;
+  }
 
   .car {
       margin-left: 10rem;
@@ -664,7 +672,7 @@ h1 {
 @media (min-width: 633px) {
 
   .ornament{
-    right: 16rem !important;
+    right: 20rem !important;
   }
 
   .internBtn {
@@ -742,7 +750,7 @@ width: 1.8rem;
 }
 
 .ornament {
-  right: 18rem !important;
+  right: 21rem !important;
 }
 
 }
@@ -760,12 +768,12 @@ h1 {
   h1 {
     margin-right: 11.5rem;
 }
-  .ornament{
-    width: 27rem;
-    right: 24rem !important;
-  }
-}
 
+.ornament {
+  right: 27rem !important;
+  width: 23rem !important;
+}
+}
 
 @media (min-width: 800px) {
 
@@ -779,15 +787,11 @@ h1 {
     font-size: 1.2rem;
   }
 
-  .ornament {
-    right: 27rem !important;
-  }
+
 
   .car {
     margin-left: 17rem;
   }
-
-
 
 
   .card {
