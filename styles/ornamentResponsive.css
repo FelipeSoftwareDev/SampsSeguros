@@ -577,33 +577,15 @@
   /* Width: 768px */
 
 
-  @media (min-width: 768px) and (min-height: 849px) {
-    .ornament {
-      bottom: -10rem !important;
-    }
-  }
-
-  @media (min-width: 768px) and (min-height: 874px) {
-    .ornament {
-      bottom: -8.8rem !important;
-    }
-  }
-
-  @media (min-width: 768px) and (min-height: 907px) {
-    .ornament {
-      bottom: -6.8rem !important;
-    }
-  }
-
   @media (min-width: 768px) and (min-height: 932px) {
     .ornament {
-      bottom: -4.8rem !important;
+      bottom: 4.2rem !important;
     }
   }
 
   @media (min-width: 768px) and (min-height: 971px) {
     .ornament {
-      bottom: -2.8rem !important;
+      bottom: 7rem !important;
     }
   }
 
@@ -611,117 +593,144 @@
 
   @media (min-width: 768px) and (min-height: 1124px) {
     .ornament {
-      bottom: 7rem !important;
+      bottom: 17rem !important;
     }
   }
 
   @media (min-width: 768px) and (min-height: 1156px) {
     .ornament {
-      bottom: 9rem !important;
+      bottom: 18.5rem !important;
     }
   }
 
   @media (min-width: 768px) and (min-height: 1191px) {
     .ornament {
-      bottom: 25rem !important;
+      bottom: 20rem !important;
     }
   }
 
   @media (min-width: 768px) and (min-height: 1226px) {
     .ornament {
-      bottom: 14rem !important;
+      bottom: 23rem !important;
     }
   }
 
   @media (min-width: 768px) and (min-height: 1280px) {
     .ornament {
-      bottom: 17rem !important;
+      bottom: 26rem !important;
     }
   }
 
+  @media (min-width: 768px) and (min-height: 1310px) {
+    .ornament {
+      bottom: 28rem !important;
+    }
+  }
 
+  @media (min-width: 768px) and (min-height: 1350px) {
+    .ornament {
+      bottom: 30.5rem !important;
+    }
+  }
+
+  @media (min-width: 768px) and (min-height: 1396px) {
+    .ornament {
+      bottom: 33.5rem !important;
+    }
+  }
+
+  @media (min-width: 768px) and (min-height: 1440px) {
+    .ornament {
+      bottom: 36rem !important;
+    }
+  }
 
 
   /* Width: 800px */
 
 
-
-@media (min-width: 800px) and (min-height: 700px) {
-  .ornament {
-    bottom: -27rem !important;
-  }
-}
-
-@media (min-width: 800px) and (min-height: 730px) {
-  .ornament {
-    bottom: -25rem !important;
-  }
-}
-
 @media (min-width: 800px) and (min-height: 760px) {
   .ornament {
-    bottom: -23rem !important;
-  }
+    bottom: -6rem !important;
+}
 }
 
 
 
 @media (min-width: 800px) and (min-height: 780px) {
   .ornament {
-    bottom: -21.5rem !important;
+    bottom: -4.5rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 811px) {
   .ornament {
-    bottom: -19rem !important;
+    bottom: -2.5rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 915px) {
   .ornament {
-    bottom: -13rem !important;
+    bottom: 3.5rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 950px) {
   .ornament {
-    bottom: -10rem !important;
+    bottom: 5rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 990px) {
   .ornament {
-    bottom: -7rem !important;
+    bottom: 9rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 1045px) {
   .ornament {
-    bottom: -4.5rem !important;
+    bottom: 12rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 1080px) {
   .ornament {
-    bottom: -1.5rem !important;
+    bottom: 15rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 1130px) {
   .ornament {
-    bottom: 1.5rem !important;
+    bottom: 17rem !important;
   }
 }
 
 @media (min-width: 800px) and (min-height: 1180px) {
   .ornament {
-    bottom: 4.5rem !important;
+    bottom: 21rem !important;
   }
 }
 
-@media (min-width: 800px) and (min-height: 1225px) {
+@media (min-width: 800px) and (min-height: 1235px) {
   .ornament {
-    bottom: 6.5rem !important;
+    bottom: 24rem !important;
   }
-}
+  }
+
+  @media (min-width: 768px) and (min-height: 1310px) {
+    .ornament {
+      bottom: 28rem !important;
+    }
+  }
+
+  @media (min-width: 768px) and (min-height: 1350px) {
+    .ornament {
+      bottom: 30.5rem !important;
+    }
+  }
+
+  @media (min-width: 768px) and (min-height: 1440px) {
+    .ornament {
+      bottom: 37rem !important;
+    }
+  }

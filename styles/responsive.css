@@ -767,12 +767,51 @@ h1 {
 @media (min-width: 768px) {
   h1 {
     margin-right: 11.5rem;
+    font-size: 3rem;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+li {
+  margin-left: 1rem;
+  font-size: 1.25rem;
 }
 
 .ornament {
-  right: 27rem !important;
-  width: 23rem !important;
+  width: 26rem !important;
+  left: -0.5rem;
 }
+
+.peopleVector {
+  top: 5.5rem !important;
+  width: 9rem;
+}
+.whiteArrow {
+  top: 6rem !important;
+  width: 2rem;
+  left: 5.2rem;
+}
+
+.advantages h2 {
+  margin-left: 16.5rem;
+  font-size: 1.3rem;
+}
+
+.advantages p {
+  margin-left: 16.5rem;
+}
+
+.lastCta p {
+  font-size: 1.3rem;
+}
+
+.policyHolders img {
+  width: 10rem;
+}
+
+
 }
 
 @media (min-width: 800px) {
