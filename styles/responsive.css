@@ -86,7 +86,7 @@
 }
 
 /* pensando na 360 width*/
-@media (min-width: 350px) {
+@media (min-width: 340px) {
 
   .ornament {
     right: 6rem;
@@ -151,7 +151,13 @@
   }
 }
 
+/* pensando na 380 width*/
 @media (min-width: 379px) {
+
+  .ornament{
+    right: 8rem;
+  }
+
 h1 {
   margin-right: 1rem;
 }}

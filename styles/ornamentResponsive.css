@@ -103,20 +103,20 @@
 
 /* Todas Alturas para Largura de 350px em diante*/
 
-@media (min-width:350px) and (min-height: 600px) {
+@media (min-width:347px) and (min-height: 600px) {
   .ornament {
     bottom: 0.5rem !important;
   }
 }
 
-@media (min-width:350px) and (min-height: 745px) {
+@media (min-width:347px) and (min-height: 745px) {
   .ornament {
     bottom: 9rem !important;
   }
 }
 
 
-@media (min-width:350px) and (min-height: 763px) {
+@media (min-width:347px) and (min-height: 763px) {
 
   .ornament {
     bottom: 10.5rem !important;
@@ -124,49 +124,76 @@
 
 }
 
-@media (min-width:350px) and (min-height: 780px) {
+@media (min-width:347px) and (min-height: 780px) {
   .ornament {
     bottom: 11.5rem !important;
 }
 }
 
-@media (min-width:350px) and (min-height: 812px) {
+@media (min-width:347px) and (min-height: 812px) {
   .ornament {
     bottom: 13.5rem !important;
 }
 }
 
-@media (min-width:350px) and (min-height: 830px) {
+@media (min-width:347px) and (min-height: 830px) {
   .ornament {
     bottom: 15rem !important;
 }
 }
 
 
-@media (min-width:350px) and (min-height: 844px) {
+@media (min-width:347px) and (min-height: 844px) {
   .ornament {
     bottom: 16rem !important;
   }
 }
 
-@media (min-width:350px) and (min-height: 880px) {
+@media (min-width:347px) and (min-height: 880px) {
   .ornament {
     bottom: 17.5rem !important;
   }
 }
 
-@media (min-width:350px) and (min-height: 910px) {
+@media (min-width:347px) and (min-height: 910px) {
   .ornament {
     bottom: 19.5rem !important;
   }
 }
 
-@media (min-width:350px) and (min-height: 937px) {
+@media (min-width:347px) and (min-height: 937px) {
   .ornament {
     bottom: 21.5rem !important;
   }
 }
 
+@media (min-width:347px) and (min-height: 1030px) {
+.ornament {
+  bottom: 27rem !important;
+}}
+
+/* Todas Alturas para Largura de 380px em diante*/
+
+@media (min-width: 373px) and (min-height: 675px) {
+  .ornament{
+  bottom: 5rem !important;
+}}
+
+@media (min-width: 373px) and (min-height: 692px) {
+  .ornament{
+  bottom: 6.5rem !important;
+}}
+
+@media (min-width: 373px) and (min-height: 725px) {
+.ornament {
+  bottom: 8.5rem !important;
+}
+}
+
+@media (min-width: 373px) and (min-height: 754px) {
+.ornament {
+  bottom: 10rem !important;
+}}
 
 /* Todas Alturas para Largura de 425px em diante*/
 
