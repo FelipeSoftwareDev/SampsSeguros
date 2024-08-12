@@ -202,7 +202,7 @@ ul{
         top: 0;
         right: 0;
         height: 100%;
-        width: 4rem;
+        width: 20%;
         background: linear-gradient(to left, #fff , #ffffff00);
         content: "";
         z-index: 1;
@@ -213,7 +213,7 @@ ul{
         top: 0;
         left: 0;
         height: 100%;
-        width: 4rem;
+        width: 20%;
         background: linear-gradient(to right, #fff, #ffffff00);
         content: "";
         z-index: 1;
