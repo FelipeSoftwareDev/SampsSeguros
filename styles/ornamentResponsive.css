@@ -195,6 +195,16 @@
   bottom: 10rem !important;
 }}
 
+@media (min-width: 373px) and (min-height: 779px) {
+  .ornament {
+    bottom: 11.5rem !important;
+  }}
+
+  @media (min-width: 373px) and (min-height: 800px) {
+    .ornament {
+      bottom: 13rem !important;
+  }}
+
 /* Todas Alturas para Largura de 425px em diante*/
 
 
