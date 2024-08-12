@@ -78,7 +78,12 @@
 @media (min-width: 330px) {
 .internBtn {
   font-size: .8rem !important;
-}}
+}
+.ornament {
+  right: 5rem;
+  width: 16rem;
+}
+}
 
 /* pensando na 360 width*/
 @media (min-width: 350px) {
@@ -138,7 +143,7 @@
 /* pensando na 375 width*/
 @media (min-width: 370px) {
   .ornament {
-    right: 3rem;
+    right: 7rem;
   }
 
   #agreement {
@@ -155,7 +160,7 @@ h1 {
 @media (min-width: 400px) {
 
   .ornament {
-    right: 4.8rem;
+    right: 8.5rem;
   }
 
   li {
@@ -163,13 +168,13 @@ h1 {
   }
 
   h1 {
-    margin-right: 2.5rem;
-    margin-left: 2.5rem !important;
+    margin-right: 2rem;
+    margin-left: 2rem !important;
     font-size: 1.9rem;
   }
 
   p {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     margin-right: 1.5rem;
     font-size: .8rem;
   }
@@ -185,10 +190,6 @@ h1 {
 
   .internBtn {
     font-size: 1.2rem !important;
-  }
-
-  .ornament {
-    right: 5.5rem;
   }
 
   .peopleVector {
@@ -230,16 +231,8 @@ h1 {
 
 }
 
-@media (min-width: 423px) {
-.ornament {
-  right: 9.5rem;
-  width: 17rem;
-}}
-
 /* pensando na 428 width*/
-@media (min-width: 428px) {
-
-
+@media (min-width: 423px) {
 
   h1 {
     margin-bottom: 1rem;
@@ -251,8 +244,8 @@ h1 {
   }
 
   .ornament {
-    right: 6rem;
     width: 18rem;
+    right: 9.5rem;
   }
 
   li {
@@ -349,8 +342,8 @@ h1 {
 /* pensando na 447 width*/
 @media (min-width: 441px) {
   .ornament {
-    right: 6.5rem;
-  }
+    right: 10rem;
+}
 }
 
 @media (min-width: 452px) {
@@ -365,21 +358,21 @@ h1 {
   }
 
   .ornament {
-    right: 6.5rem;
+    right: 10.5rem;
   }
 }
 
-@media (min-width: 457px) {
-  .ornament {
-    right: 8.5rem;
-  }
-}
+
 
 @media (min-width: 462px) {
   label {
     margin-left: 1.8em;
   }
 }
+@media screen and (min-width: 465px) {
+.ornament {
+  right: 11.5rem !important;
+}}
 
 /* pensando na 480 width*/
 @media screen and (min-width: 478px) {
@@ -465,27 +458,6 @@ h1 {
 
 }
 
-@media screen and (min-width: 508px) {
-  .ornament {
-    right: 7.5rem;
-  }
-
-  .form label {
-    margin-left: 3em;
-  }
-
-  .lastCta p {
-    margin: 1rem 1rem;
-  }
-
-  #agreement .container {
-    margin: 0 .5rem;
-  }
-}
-
-
-
-
 @media (min-width: 478px) and (min-height: 811px) {
 
   .peopleVector {
@@ -501,12 +473,17 @@ h1 {
   }
 }
 
+@media screen and (min-width: 497px) {
+  .ornament {
+    right: 13rem !important;
+}
+}
 
 
 @media screen and (min-width: 508px) {
   .ornament {
-    right: 7.5rem;
-  }
+    right: 13.5rem;
+}
 
   .form label {
     margin-left: 3em;
@@ -568,7 +545,7 @@ h1 {
   margin-right: 5rem;}
 }
 
-@media (min-width: 592px) {
+@media (min-width: 586px) {
   h1 {
     margin-right: 6.5rem;
   }
@@ -740,26 +717,32 @@ width: 1.8rem;
     margin-right: 7.5rem;
   }
 }
-@media (min-width: 674px) {
+@media (min-width: 672px) {
+
+  .internBtn {
+    font-size: 1.6rem !important;
+}
+
   h1 {
     font-size: 2.95rem;
-    margin-right: 7.5rem;
+    margin-right: 6.5rem;
   }
   p {
     font-size: 1.3rem;
 }
 
 .ornament {
-  right: 21rem !important;
+  right: 22rem !important;
 }
 
 }
-@media (min-width: 736px) {
+@media (min-width: 721px) {
 h1 {
   margin-right: 9.5rem;
 }
 .ornament{
-  right: 22rem !important;
+  right: 24rem !important;
+  width: 26rem !important;
 }
 
 }
@@ -779,10 +762,6 @@ li {
   font-size: 1.25rem;
 }
 
-.ornament {
-  width: 26rem !important;
-  left: -0.5rem;
-}
 
 .peopleVector {
   top: 5.5rem !important;
@@ -814,6 +793,12 @@ li {
 
 }
 
+@media (min-width: 797px) {
+  .ornament{
+  right: 26rem !important;
+  }
+}
+
 @media (min-width: 800px) {
 
   h1 {
@@ -825,7 +810,6 @@ li {
   #heroSection p {
     font-size: 1.2rem;
   }
-
 
 
   .car {
@@ -873,6 +857,12 @@ li {
 
 
 
+}
+
+@media (min-width: 831px) {
+  .ornament{
+    right: 27.5rem !important;
+  }
 }
 
 @media (min-width: 1023px) {
