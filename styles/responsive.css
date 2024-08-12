@@ -162,11 +162,19 @@ h1 {
   margin-right: 1rem;
 }}
 
+
+@media (min-width: 395px) {
+.ornament {
+  right: 9rem;
+}}
+h1 {
+  margin-right: 1.5rem;
+}
 /* pensando na 412 width*/
 @media (min-width: 400px) {
 
   .ornament {
-    right: 8.5rem;
+    right: 10rem;
   }
 
   li {
@@ -195,7 +203,7 @@ h1 {
   }
 
   .internBtn {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 
   .peopleVector {
@@ -236,6 +244,8 @@ h1 {
   }
 
 }
+
+
 
 /* pensando na 428 width*/
 @media (min-width: 423px) {

@@ -174,7 +174,12 @@
 
 /* Todas Alturas para Largura de 380px em diante*/
 
-@media (min-width: 373px) and (min-height: 675px) {
+@media (min-width: 373px) and (min-height: 640px) {
+.ornament {
+  bottom: 3rem !important;
+}}
+
+@media (min-width: 373px) and (min-height: 668px) {
   .ornament{
   bottom: 5rem !important;
 }}
@@ -204,6 +209,16 @@
     .ornament {
       bottom: 13rem !important;
   }}
+
+  @media (min-width: 373px) and (min-height: 825px) {
+  .ornament {
+    bottom: 14.2rem !important;
+}}
+
+@media (min-width: 373px) and (min-height: 844px) {
+  .ornament {
+    bottom: 16rem !important;
+}}
 
 /* Todas Alturas para Largura de 425px em diante*/
 
