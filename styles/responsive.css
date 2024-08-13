@@ -356,9 +356,12 @@ h1 {
 }
 
 /* pensando na 447 width*/
-@media (min-width: 441px) {
+@media (min-width: 437px) {
   .ornament {
     right: 10rem;
+}
+h1{
+  margin-right: 3rem;
 }
 }
 
@@ -427,7 +430,7 @@ h1 {
   }
 
 
-  #heroSection p {
+  #hsamps-seguros p {
     margin-right: 2.5rem;
   }
 
@@ -823,7 +826,7 @@ li {
     margin-right: 9rem !important;
   }
 
-  #heroSection p {
+  #samps-seguros p {
     font-size: 1.2rem;
   }
 

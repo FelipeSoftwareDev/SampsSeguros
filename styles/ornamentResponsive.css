@@ -226,37 +226,37 @@
 
 @media (min-width: 425px) and (min-height: 675px) {
   .ornament {
-    bottom: 3rem !important;
+    bottom: 2rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 700px) {
   .ornament {
-    bottom: 4.5rem !important;
+    bottom: 3.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 733px) {
   .ornament {
-    bottom: 7rem !important;
+    bottom: 5.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 750px) {
   .ornament {
-    bottom: 8rem !important;
+    bottom: 6.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 764px) {
   .ornament {
-    bottom: 9rem !important;
+    bottom: 7.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 790px) {
   .ornament {
-    bottom: 10.5rem !important;
+    bottom: 9rem !important;
   }
 }
 
@@ -267,53 +267,110 @@
 }
 }
 
+
+@media (min-width: 425px) and (min-height: 830px) {
+  .ornament {
+    bottom: 11.5rem !important;
+}
+}
+
 @media (min-width: 425px) and (min-height: 840px) {
   .ornament {
-    bottom: 13.5rem !important;
+    bottom: 12rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 870px) {
   .ornament {
-    bottom: 15.5rem !important;
+    bottom: 14rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 895px) {
   .ornament {
-    bottom: 17rem !important;
+    bottom: 15.5rem !important;
+  }
+}
+
+@media (min-width: 425px) and (min-height: 913px) {
+  .ornament {
+    bottom: 16.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 925px) {
   .ornament {
-    bottom: 19rem !important;
+    bottom: 17.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 945px) {
   .ornament {
-    bottom: 20rem !important;
+    bottom: 19rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 961px) {
   .ornament {
-    bottom: 21.5rem !important;
+    bottom: 20rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 985px) {
   .ornament {
-    bottom: 23rem !important;
+    bottom: 21.5rem !important;
   }
 }
 
 @media (min-width: 425px) and (min-height: 1005px) {
   .ornament {
-    bottom: 24rem !important;
+    bottom: 22.5rem !important;
   }
 }
+
+/* Encontrando iphone pro max, tentativa*/
+@media (min-width: 440px) and (min-height:833px) {
+  .ornament {
+    bottom: 12.5rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:865px) {
+  .ornament {
+    bottom: 13.5rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:883px) {
+  .ornament {
+    bottom: 15rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:903px) {
+  .ornament {
+    bottom: 16rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:923px) {
+  .ornament {
+    bottom: 17.5rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:945px) {
+  .ornament {
+    bottom: 18.5rem !important;
+}
+}
+
+@media (min-width: 440px) and (min-height:960px) {
+  .ornament {
+    bottom: 20rem !important;
+}
+}
+
 
 /* Todas Alturas para Largura de 468px em diante pensando 473 */
 

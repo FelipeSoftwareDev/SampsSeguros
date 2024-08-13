@@ -1,7 +1,7 @@
 
 
 window.addEventListener('load', function() {
-    if (window.innerWidth >= 980) { // Ajuste o breakpoint conforme necessário
+    if (window.innerWidth >= 980) { 
         document.getElementById('warning-message').style.display = 'flex';
         document.getElementById('original-content').classList.add('blurred');
     }
