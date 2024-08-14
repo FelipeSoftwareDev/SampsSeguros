@@ -1,0 +1,249 @@
+
+.header {
+    background-color: #3a28cc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    padding: .5rem 0;
+    z-index: 2;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+/*
+.logo {
+    margin-right: 15rem;
+}
+    */
+.menu{
+    margin-right: 1rem;
+
+}
+
+#samps-seguros{
+    background-color: #3B28CC;
+    color: #fff;
+    padding: 1rem;
+    padding-top: 6rem;
+    border-radius: 2.6rem;
+}
+
+
+
+#warning-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+h1{
+    font-weight: 300 !important;
+    font-size: 1.76rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: .5rem;
+}
+
+p{
+    font-size: .68rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border: solid 2px #0094FF;
+    width: 60%;
+    padding: .3rem;
+    border-radius: .5rem;
+    margin: 1rem 2rem;
+    z-index: 99999;
+}
+
+.internBtn{
+    font-size: 1rem !important;
+    font-weight:600 !important;
+    padding: .5rem 1.2rem !important;
+    color: #000;
+    background-color: #5bb3f1;
+    border-radius: .3rem;
+    text-decoration: none !important;
+    margin-right: .5rem;
+    text-align: center;
+} 
+
+
+
+.advantages{
+    padding: 1rem;
+    padding-right: .5rem;
+    margin: 2rem;
+    margin-top: 1.8rem !important;
+}
+
+
+ul{
+    list-style: none; 
+    }
+    
+    li{
+        margin-top: 2rem;
+        font-size: .85rem;
+        }
+
+.advantages h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-right:auto ;
+        margin-left: 11rem;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.advantages p{
+    margin-left: 11rem;
+    margin-right: 0;
+
+    }         
+
+
+.peopleVector{
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+    margin-bottom: -3.3rem;
+    }
+
+.ornament {
+    position: absolute;
+    right: 3.8rem;
+    bottom: -1.2rem;
+    width: 23rem;
+    }
+
+.whiteArrow{
+    position: relative;
+    left: 3.3rem;
+    top: 3rem;
+}
+
+.car {
+    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+    margin-top: -3rem;
+}
+
+#partners{
+    align-items: center;
+    justify-content: center;
+}
+        
+#partners h3{
+    margin: 1rem 4.65rem;
+    font-size: .7rem;
+    font-weight: 600;
+    max-width: 100vw;
+    text-align: center;
+}
+    
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    }    
+
+    .slideTrack{
+        box-sizing: border-box;
+        background-color: #FFF;
+        overflow: hidden;
+        padding: 4rem 0;
+        white-space: nowrap;
+        position: relative;
+        z-index: -1;
+    }
+
+    .slideTrack:after{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 20%;
+        background: linear-gradient(to left, #fff , #ffffff00);
+        content: "";
+        z-index: 1;
+    }
+    
+    .slideTrack:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 20%;
+        background: linear-gradient(to right, #fff, #ffffff00);
+        content: "";
+        z-index: 1;
+    }
+    
+    
+    .logos-slide{
+        animation: 12s slide infinite linear;
+        display: inline-block;
+        
+    }
+     
+    .logos-slide img{
+        width: auto;
+        margin: 0 3rem;
+    }
+
+    .wpp{
+        position: fixed;
+        right: 0;
+        bottom: .8rem;
+        overflow: hidden;
+        max-width: 100%;
+        z-index: 2;
+    }
+
+    .wpp img{
+        padding: 1rem;
+        overflow: hidden;
+        max-width: fit-content;
+        filter: drop-shadow(0px 3px 5px #00000065);
+
+    }

@@ -1,0 +1,903 @@
+@media screen and (max-width: 325px) {
+
+  .ornament {
+    right: 5rem;
+    width: 15rem;
+  }
+
+  .car {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: -3rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-left: 1.4rem;
+    margin-right: .4rem;
+  }
+
+  .internBtn {
+    font-size: 0.76rem !important;
+    padding: .5rem .8rem !important;
+  }
+
+  p {
+    font-size: 0.6rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+  }
+
+  .card img {
+    width: 80%;
+  }
+
+  #partners h3 {
+    margin: 1rem 4.65rem !important;
+  }
+
+  .lastCta {
+    max-width: 100%;
+    overflow: hidden;
+
+  }
+
+  .form input {
+    width: 12rem;
+  }
+
+  ::placeholder {
+    font-size: .6rem;
+  }
+
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .cellphone p {
+    font-size: .6rem;
+  }
+
+  .submit button {
+    font-size: .6rem;
+    margin: 2rem 0;
+    padding: .8rem 1rem;
+  }
+
+  #agreement p {
+    margin-right: 0rem;
+    margin-left: .5rem;
+    font-size: .6rem;
+  }
+
+}
+@media (min-width: 330px) {
+.internBtn {
+  font-size: .8rem !important;
+}
+.ornament {
+  right: 5rem;
+  width: 16rem;
+}
+}
+
+/* pensando na 360 width*/
+@media (min-width: 340px) {
+
+  .ornament {
+    right: 6rem;
+    width: 16rem;
+  }
+
+  h1 {
+    margin-right: 0;
+  }
+
+  .btn1 {
+    width: 63%;
+  }
+
+  #partners h3 {
+    margin: 1rem;
+  }
+
+  .card {
+    padding: .5rem;
+  }
+
+  .card p {
+    margin-bottom: 1rem;
+  }
+
+  .submit button {
+    padding: .8rem 1rem;
+  }
+
+  .lastCta {
+    padding: 1rem;
+  }
+
+  .lastCta p {
+    margin: 1rem 0rem;
+  }
+
+  label {
+    margin-left: .5rem;
+    margin-bottom: .2rem;
+  }
+
+  .container {
+    margin: 0 .5rem;
+  }
+
+  .error {
+    margin-left: .7rem !important;
+  }
+
+}
+
+/* pensando na 375 width*/
+@media (min-width: 370px) {
+  .ornament {
+    right: 7rem;
+  }
+
+  #agreement {
+    padding: 0 1rem;
+  }
+}
+
+/* pensando na 380 width*/
+@media (min-width: 379px) {
+
+  .ornament{
+    right: 8rem;
+  }
+
+h1 {
+  margin-right: 1rem;
+}}
+
+
+@media (min-width: 395px) {
+.ornament {
+  right: 9rem;
+}}
+h1 {
+  margin-right: 1.5rem;
+}
+/* pensando na 412 width*/
+@media (min-width: 400px) {
+
+  .ornament {
+    right: 10rem;
+  }
+
+  li {
+    margin-left: .5rem;
+  }
+
+  h1 {
+    margin-right: 2rem;
+    margin-left: 2rem !important;
+    font-size: 1.9rem;
+  }
+
+  p {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    font-size: .8rem;
+  }
+
+
+  .advantages p {
+    margin-right: 1rem;
+  }
+
+  .btn1 {
+    margin: 1rem 3rem;
+  }
+
+  .internBtn {
+    font-size: 1.1rem !important;
+  }
+
+  .peopleVector {
+    left: 6.5rem;
+  }
+
+  .whiteArrow {
+    left: 4.8rem;
+  }
+
+  .advantages h2 {
+    margin-left: 12.5rem;
+  }
+
+  .advantages p {
+    margin-left: 12.5rem;
+  }
+
+  .car {
+    margin-left: 4rem;
+
+  }
+
+  label {
+    margin-left: 1.5rem;
+  }
+
+  .error {
+    margin-left: 2rem !important;
+  }
+
+  #agreement {
+    padding: 0 2rem;
+  }
+
+  .formArea h3 {
+    margin: .3rem 0 3rem 0;
+  }
+
+}
+
+
+
+/* pensando na 428 width*/
+@media (min-width: 423px) {
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+
+  .btn1 {
+    margin: 1.5rem 3rem;
+  }
+
+  .ornament {
+    width: 18rem;
+    right: 9.5rem;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .peopleVector {
+    left: 7.5rem;
+  }
+
+  .whiteArrow {
+    left: 5.8rem;
+  }
+
+  .advantages h2 {
+    margin-left: 13.5rem;
+  }
+
+  .advantages p {
+    margin-left: 13.5rem;
+  }
+
+  .card img {
+    width: 24rem;
+  }
+
+  .card {
+    height: 28rem;
+  }
+
+  .card h2 {
+    margin: 1rem 1.8rem;
+  }
+
+  .card p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: .9rem;
+    line-height: 1rem;
+  }
+
+  .c2 p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .error {
+    margin-left: 2.5rem !important;
+  }
+
+  #agreement {
+    padding: 0 2.5rem;
+  }
+
+  .lastCta h2 {
+    font-size: 1.2rem;
+  }
+
+  .formArea h3 {
+    font-size: 1.3rem;
+  }
+
+  .lastCta p {
+    font-size: .9rem;
+  }
+
+
+  label {
+    margin-left: .8em;
+    margin-bottom: .4rem;
+    font-size: .9rem;
+  }
+
+  .form input {
+    width: 18rem;
+    height: 2.2rem;
+  }
+
+  .error {
+    margin-left: 1rem !important;
+  }
+
+  .cellphone label {
+    width: 9rem;
+  }
+
+  .plate label {
+    width: 8rem;
+  }
+
+
+}
+
+/* pensando na 447 width*/
+@media (min-width: 437px) {
+  .ornament {
+    right: 10rem;
+}
+h1{
+  margin-right: 3rem;
+}
+}
+
+@media (min-width: 452px) {
+  h1 {
+    margin-right: 3.5rem;
+    margin-left: 3.5rem !important;
+  }
+
+  p {
+    margin-left: 3.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .ornament {
+    right: 10.5rem;
+  }
+}
+
+
+
+@media (min-width: 462px) {
+  label {
+    margin-left: 1.8em;
+  }
+}
+@media screen and (min-width: 465px) {
+.ornament {
+  right: 11.5rem !important;
+}}
+
+/* pensando na 480 width*/
+@media screen and (min-width: 478px) {
+
+  h1 {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem !important;
+  }
+
+  p {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .menu {
+    margin-right: 2rem;
+  }
+
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .ornament {
+    right: 11rem;
+    width: 19rem;
+  }
+
+  li {
+    font-size: .95rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+
+  }
+
+
+  #hsamps-seguros p {
+    margin-right: 2.5rem;
+  }
+
+  .peopleVector {
+    top: 3rem;
+  }
+
+  .whiteArrow {
+    top: 4rem;
+  }
+
+  .advantages h2 {
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+
+  .card img {
+    width: 25rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.2rem;
+  }
+
+  .card {
+    padding: 1rem;
+    margin: 1.2rem .9rem;
+    height: 32rem;
+    border-radius: 1.4rem;
+  }
+
+  .card h2 {
+    font-size: 1.6rem;
+    margin: 1rem 1.8rem;
+  }
+
+
+
+}
+
+@media (min-width: 478px) and (min-height: 811px) {
+
+  .peopleVector {
+    top: 4rem !important;
+  }
+
+  .whiteArrow {
+    top: 5rem !important;
+  }
+
+  .advantages h2 {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (min-width: 497px) {
+  .ornament {
+    right: 13rem !important;
+}
+}
+
+
+@media screen and (min-width: 508px) {
+  .ornament {
+    right: 13.5rem;
+}
+
+  .form label {
+    margin-left: 3em;
+  }
+
+  .lastCta p {
+    margin: 1rem 1rem;
+  }
+
+  #agreement .container {
+    margin: 0 .5rem;
+  }
+}
+
+@media screen and (min-width: 523px) {
+
+  h1 {
+    margin-right: 4rem;
+    margin-left: 3.5rem !important;
+  }
+
+  .ornament {
+    right: 14rem !important;
+}
+
+  p {
+    margin-left: 3.5rem;
+  }
+
+  .car{
+    margin-left: 7rem;
+  }
+
+  .wpp img {
+    width: 3.8rem;
+  }
+
+  .btn1 {
+    width: 48%;
+  }
+
+  .btn1 {
+    margin: 1.5rem 4rem;
+  }
+
+
+  .form label {
+    margin-left: 3.5em;
+  }
+
+  .error {
+    margin-left: 3.3rem !important;
+  }
+
+}
+
+@media screen and (min-width: 568px) {
+h1 {
+  margin-right: 5rem;}
+}
+
+@media (min-width: 586px) {
+  h1 {
+    margin-right: 6.5rem;
+  }
+  .ornament {
+    right: 18.5rem !important;
+  }
+  }
+
+@media (min-width: 600px) {
+
+  .btn1 {
+    margin: 2rem 4rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1.5rem;
+    margin-left: 3.5rem !important;
+    margin-right: 6rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+  
+  .ornament {
+    width: 21rem;
+  }
+
+  .car {
+      margin-left: 10rem;
+  }
+
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+  .formArea{
+    margin: 1rem 2.7rem;
+  }
+
+  .policyHolders img {
+    width: 6rem;
+  }
+
+  .form input {
+    width: 20rem;
+  }
+
+  #agreement .container {
+    margin: 0 3.5rem;
+  }
+
+  .lastCta h2 {
+
+    font-size: 1.4rem;
+    margin: 2rem 8rem;
+
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  .form label {
+    margin-left: 4.5em !important;
+  }
+
+
+
+  .cellphone label {
+    width: 9.5rem;
+  }
+
+  .plate label {
+    width: 8.5rem;
+  }
+
+  #agreement p {
+    font-size: .8rem;
+  }
+
+  .plate label {
+    width: 7.6rem;
+  }
+
+  .cellphone label {
+    width: 8.5rem;
+  }
+
+  .error {
+    margin-left: 4.3rem !important;
+}
+
+}
+
+@media (min-width: 633px) {
+
+  .ornament{
+    right: 20rem !important;
+  }
+
+  .internBtn {
+    font-size: 1.4rem !important;
+}
+
+.btn1{
+  border: solid 3px #0094FF;
+}
+
+.btn1 img{
+width: 1.8rem;
+}
+  
+.car {
+    margin-left: 8rem;
+    width: 20rem;
+  }
+
+  #partners h3 {
+    margin: 1rem 4.65rem;
+    font-size: 1rem;
+  }
+  
+  .lastCta h2 {
+    margin: 0 8rem;
+    margin-top: 3rem;
+  }
+
+  .lastCta p {
+    margin: 1rem 9rem;
+    font-size: 1rem;
+  }
+
+  .formArea {
+    margin: 1rem 3rem;
+  }
+
+  .policyHolders img {
+    width: 7rem;
+  }
+
+  .form label {
+    margin-left: 5.5em !important;
+  }
+
+
+  #agreement p {
+    margin: 1rem;
+    margin-bottom: .1rem;
+  }
+
+  .error {
+    margin-left: 5.3rem !important;
+  }
+
+  .submit button {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 665px) {
+  h1 {
+    margin-right: 7.5rem;
+  }
+}
+@media (min-width: 672px) {
+
+  .internBtn {
+    font-size: 1.6rem !important;
+}
+
+  h1 {
+    font-size: 2.95rem;
+    margin-right: 6.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+}
+
+.ornament {
+  right: 22rem !important;
+}
+
+}
+@media (min-width: 721px) {
+h1 {
+  margin-right: 9.5rem;
+}
+.ornament{
+  right: 24rem !important;
+  width: 26rem !important;
+}
+
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin-right: 11.5rem;
+    font-size: 3rem;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+li {
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+
+.peopleVector {
+  top: 5.5rem !important;
+  width: 9rem;
+}
+.whiteArrow {
+  top: 6rem !important;
+  width: 2rem;
+  left: 5.2rem;
+}
+
+.advantages h2 {
+  margin-left: 16.5rem;
+  font-size: 1.3rem;
+}
+
+.advantages p {
+  margin-left: 16.5rem;
+}
+
+.lastCta p {
+  font-size: 1.3rem;
+}
+
+.policyHolders img {
+  width: 10rem;
+}
+
+
+}
+
+@media (min-width: 797px) {
+  .ornament{
+  right: 26rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 9rem !important;
+  }
+
+  #samps-seguros p {
+    font-size: 1.2rem;
+  }
+
+
+  .car {
+    margin-left: 17rem;
+  }
+
+
+  .card {
+    margin: 1.2rem 7.9rem;
+  }
+
+  .lastCta h2 {
+    margin: 1rem 8rem;
+  }
+
+  .lastCta p {
+    margin: 1rem 4rem;
+  }
+
+  #agreement p {
+    margin: 1rem;
+  }
+
+  #agreement input {
+    margin: 0;
+  }
+
+  .form label {
+    margin-left: 4.5rem !important;
+  }
+
+  .cellphone label {
+    width: 8.5rem;
+  }
+
+  .plate label {
+    width: 8rem;
+  }
+
+  .formArea {
+    width: 60%;
+    margin: 1rem 9rem;
+  }
+
+
+
+
+}
+
+@media (min-width: 831px) {
+  .ornament{
+    right: 27.5rem !important;
+  }
+}
+
+@media (min-width: 1023px) {
+
+  h1 {
+    font-size: 4rem;
+    margin-left: 5.5rem !important;
+    margin-right: 15rem !important;
+  }
+
+  .ornament {
+    right: 38rem !important;
+    width: 30rem;
+  }
+
+
+}
+
+@media (min-width: 1200px) {}

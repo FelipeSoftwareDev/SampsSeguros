@@ -1,0 +1,49 @@
+.lastCta{
+    background-color: #192bcacb;
+    color: #fff;
+    padding: 2rem;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100vw;
+    border-bottom: none;
+}
+
+.ide{
+    height: 80% !important;
+    filter: brightness(2);
+}
+
+.abtec{
+    filter: brightness(1.4);
+}
+
+.shoppingAuto{
+    filter: brightness(1.2);
+}
+
+.lastCta h2{
+    font-size: 1rem;
+    margin: 2rem 2rem;
+    font-weight: 600;
+}
+
+.lastCta p{
+    font-size: .8rem;
+    margin: 1rem 1rem;
+}
+
+.policyHolders{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.policyHolders img{
+    height: auto;
+    padding: .5rem;
+    margin: .6rem;
+}
+

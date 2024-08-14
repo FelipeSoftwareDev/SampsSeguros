@@ -1,0 +1,42 @@
+.benefits{
+    max-width: 100%;
+}
+
+.card{
+    background-color: #5bb3f1;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem .5rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 10 10 3px 3px #000;
+    justify-items: center;
+    height: 25rem;
+}
+
+.card h2{
+    font-weight: 900 !important;
+    font-size: 1.4rem;
+    margin: .5rem 1.8rem;
+    justify-self: center;
+    text-align: center;
+}
+
+.card p{
+    font-weight: 600 !important;
+    font-size: .8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    line-height: .9rem;
+    margin-bottom: 3rem;
+}
+
+.card img{
+    border-radius: 1rem;
+}
+
+.c2 h2{
+    margin: .5rem 2.1rem;
+}
+
